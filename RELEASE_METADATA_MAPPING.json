@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "source_scope": "Final15 flat public metadata files associated with the companion Zenodo record; no scientific values modified",
+  "source_metadata_checksum_sha256": "8b689656e55fc4ec78e9922966f0c4ebba6319a2cd4626d58de0f3b131c0febf",
+  "record_doi": "10.5281/zenodo.24370617",
+  "files": [
+    {
+      "source_name": "ARCHIVE_SHA256SUMS.txt",
+      "source_bytes": 2177,
+      "source_sha256": "8d593f1267c0dd3e3932b87f9c927b54ab50828eb8fd88fa6ed1bbf541c5475a",
+      "path": "release/ARCHIVE_SHA256SUMS.txt",
+      "bytes": 2177,
+      "sha256": "8d593f1267c0dd3e3932b87f9c927b54ab50828eb8fd88fa6ed1bbf541c5475a",
+      "transformation": "Exact copy"
+    },
+    {
+      "source_name": "CC-BY-4.0-NOTICE.txt",
+      "source_bytes": 1245,
+      "source_sha256": "7b8f431c22d9e7945854eebd4f077b33d51ce6a91e75fedd738bcd0146e24665",
+      "path": "release/CC-BY-4.0-NOTICE.txt",
+      "bytes": 1245,
+      "sha256": "7b8f431c22d9e7945854eebd4f077b33d51ce6a91e75fedd738bcd0146e24665",
+      "transformation": "Exact copy"
+    },
+    {
+      "source_name": "CITATION.cff",
+      "source_bytes": 824,
+      "source_sha256": "b09d9e1862fb03639dad0a6f5154a0eab6109ef1a37e212f2a4275eebde1ca06",
+      "path": "release/CITATION.cff",
+      "bytes": 824,
+      "sha256": "b09d9e1862fb03639dad0a6f5154a0eab6109ef1a37e212f2a4275eebde1ca06",
+      "transformation": "Exact copy"
+    },
+    {
+      "source_name": "LICENSE",
+      "source_bytes": 1081,
+      "source_sha256": "50117125c3e1e2e52c05af014f002b63fb51f13fc59949f7590ca9da67b9d47c",
+      "path": "release/LICENSE",
+      "bytes": 1081,
+      "sha256": "50117125c3e1e2e52c05af014f002b63fb51f13fc59949f7590ca9da67b9d47c",
+      "transformation": "Exact copy"
+    },
+    {
+      "source_name": "README.md",
+      "source_bytes": 6580,
+      "source_sha256": "d5d774fbfdbaab32989b5c8b1293fc9952f8f2e4fd817983387ffb2bd723e005",
+      "path": "release/README.md",
+      "bytes": 6585,
+      "sha256": "b30916ca44ab4e1d873b6ce814c274b4bac8b29ce012c519ef02914606f11249",
+      "transformation": "Presentation-only image src path: ./statsbomb-logo.png -> assets/statsbomb-logo.png"
+    },
+    {
+      "source_name": "RELEASE_ARCHIVE_MAP.json",
+      "source_bytes": 3475,
+      "source_sha256": "ab48ff8836f70f629268146d2dbe3169b31cd74c9c56fa26ec9a018eb2651f95",
+      "path": "release/RELEASE_ARCHIVE_MAP.json",
+      "bytes": 3475,
+      "sha256": "ab48ff8836f70f629268146d2dbe3169b31cd74c9c56fa26ec9a018eb2651f95",
+      "transformation": "Exact copy"
+    },
+    {
+      "source_name": "STATSBOMB_ATTRIBUTION.md",
+      "source_bytes": 1502,
+      "source_sha256": "8d742b6b1afdd095efa129cf4262905f005b091a93511acad6aebb541391ec35",
+      "path": "release/STATSBOMB_ATTRIBUTION.md",
+      "bytes": 1507,
+      "sha256": "ee99040b3b23b0e1c27015b53f79f4f72ddf57c22c3243e4f3db5f604ab60d76",
+      "transformation": "Presentation-only image src path: ./statsbomb-logo.png -> assets/statsbomb-logo.png"
+    },
+    {
+      "source_name": "THIRD_PARTY_NOTICES.md",
+      "source_bytes": 4365,
+      "source_sha256": "389f921eb7d2d9e56c3064d71e278c977d39f7010d32f675e00954df5944c66f",
+      "path": "release/THIRD_PARTY_NOTICES.md",
+      "bytes": 4370,
+      "sha256": "404a120ceee36042355bfc42760e9846a79aaf60d90bfa31d2c2597859feb5b7",
+      "transformation": "Presentation-only image src path: ./statsbomb-logo.png -> assets/statsbomb-logo.png"
+    },
+    {
+      "source_name": "license_scope.json",
+      "source_bytes": 13288,
+      "source_sha256": "899129f1e792bd6283f2eb2cd696d40eb721a66e129c668e5645f62a3ded1f74",
+      "path": "release/license_scope.json",
+      "bytes": 13288,
+      "sha256": "899129f1e792bd6283f2eb2cd696d40eb721a66e129c668e5645f62a3ded1f74",
+      "transformation": "Exact copy"
+    },
+    {
+      "source_name": "license_scope_statsbomb_addendum.json",
+      "source_bytes": 745,
+      "source_sha256": "cbdbfbe13e58f2585c646577f3929139f6d7a2e7f944c967ad1ba11ef788a724",
+      "path": "release/license_scope_statsbomb_addendum.json",
+      "bytes": 745,
+      "sha256": "cbdbfbe13e58f2585c646577f3929139f6d7a2e7f944c967ad1ba11ef788a724",
+      "transformation": "Exact copy"
+    },
+    {
+      "source_name": "public_manifest.json",
+      "source_bytes": 20476,
+      "source_sha256": "c8a3c0f393f8fd5c1ef56f4e86ea1e7e91c09327ee2fe7930ce27f6f4b94753c",
+      "path": "release/public_manifest.json",
+      "bytes": 20476,
+      "sha256": "c8a3c0f393f8fd5c1ef56f4e86ea1e7e91c09327ee2fe7930ce27f6f4b94753c",
+      "transformation": "Exact copy"
+    },
+    {
+      "source_name": "statsbomb-logo.png",
+      "source_bytes": 120793,
+      "source_sha256": "8ba5480785f0dc4be2342ec47c70509483eb79287f85f92be1dfba36fc2872a7",
+      "path": "release/assets/statsbomb-logo.png",
+      "bytes": 120793,
+      "sha256": "8ba5480785f0dc4be2342ec47c70509483eb79287f85f92be1dfba36fc2872a7",
+      "transformation": "Exact copy"
+    },
+    {
+      "source_name": "statsbomb_asset_manifest.json",
+      "source_bytes": 1480,
+      "source_sha256": "b2cc120e7f39d4c6fae7d6c90f36bddce6df153e7d50adedb7e79de960058309",
+      "path": "release/statsbomb_asset_manifest.json",
+      "bytes": 1480,
+      "sha256": "b2cc120e7f39d4c6fae7d6c90f36bddce6df153e7d50adedb7e79de960058309",
+      "transformation": "Exact copy"
+    },
+    {
+      "source_name": "zenodo_description.html",
+      "source_bytes": 2895,
+      "source_sha256": "0a37a68aaf1a8082fc77b863fc1f65acd25658968c3176cb22776f30e8b97ce8",
+      "path": "release/zenodo_description.html",
+      "bytes": 2895,
+      "sha256": "0a37a68aaf1a8082fc77b863fc1f65acd25658968c3176cb22776f30e8b97ce8",
+      "transformation": "Exact copy"
+    },
+    {
+      "source_name": "PUBLIC_METADATA_SHA256SUMS.txt",
+      "source_bytes": 1223,
+      "source_sha256": "8b689656e55fc4ec78e9922966f0c4ebba6319a2cd4626d58de0f3b131c0febf",
+      "path": "release/PUBLIC_METADATA_SHA256SUMS.txt",
+      "transformation": "Regenerated SHA-256 list for14 Git-mapped metadata members; original Zenodo flat-layout checksum retained unchanged at its source.",
+      "bytes": 1230,
+      "sha256": "9ce9a44e3db3585da55336c92ef0b4285d4275b192d6f9940dc075114dc02504"
+    }
+  ],
+  "duplicate_exact_root_copies": [
+    "LICENSE",
+    "CITATION.cff"
+  ],
+  "current_snapshot_manifest": "PUBLIC_FILE_MANIFEST.json"
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "publication_state": "GitHub repository and initial main commit exist. Zenodo draft24370617 has reserved DOI10.5281/zenodo.24370617; publication/registration is not asserted. This source snapshot is staged for the author-controlled commit.",
+  "publication_state": "Source repository: https://github.com/QW19950330/CCPV. Companion record DOI:10.5281/zenodo.24370617; availability is established by the public record. These identifiers do not alter the archive/source identities.",
   "archives": [
     {
       "bundle": "runtime",

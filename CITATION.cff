@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Cite this asset version and its assigned archive DOI when available. Preserve source-specific attribution."
+message: "Cite this asset version and Zenodo record DOI; release availability is established by the public record. Preserve source-specific attribution."
 type: dataset
 title: "CCPV revision: frozen code, derived inputs, and evaluation artifacts"
 version: "v2026.11.19"
@@ -12,4 +12,5 @@ authors:
     affiliation: "Xi’an Physical Education University, Xi’an 710068, China"
 repository-code: "https://github.com/QW19950330/CCPV"
 # Licences are scoped in license_scope.json; a blanket licence is intentionally omitted.
-# DOI and date-released will be added only after an actual public archive record is verified.
+doi: "10.5281/zenodo.24370617"
+# The public record determines release availability; no publication-status assertion is encoded here.

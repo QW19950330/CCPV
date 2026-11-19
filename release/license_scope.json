@@ -151,6 +151,12 @@
         "Any copied third-party LICENSE, LICENSE-DATA, README or source notice"
       ],
       "rule": "Preserve the named rights holder and original terms. The author grant does not relicense these materials."
+    },
+    {
+      "filename": "statsbomb-logo.png",
+      "alternate_github_location": "release/assets/statsbomb-logo.png",
+      "source": "StatsBomb",
+      "rule": "Unmodified official brand asset displayed for provider-requested source credit. Trademark/copyright remains with the relevant rights holders; no author MIT/CC-BY grant or general trademark licence."
     }
   ],
   "sources": {
@@ -217,5 +223,6 @@
     }
   },
   "no_additional_source_data_authorized": true,
-  "no_training_or_numerical_change_for_release": true
+  "no_training_or_numerical_change_for_release": true,
+  "supplemental_metadata_scope": "Eligible author-created release documentation is CC-BY-4.0; copied licence texts, provider notices and the StatsBomb logo retain their own terms. See license_scope_statsbomb_addendum.json."
 }

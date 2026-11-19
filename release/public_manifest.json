@@ -15,12 +15,11 @@
     }
   ],
   "publication": {
-    "published": false,
     "repository_url": "https://github.com/QW19950330/CCPV",
-    "zenodo_record_url": null,
-    "doi": null,
-    "repository_exists": true,
-    "assets_published": false
+    "zenodo_record_identifier": "10.5281/zenodo.24370617",
+    "doi_url": "https://doi.org/10.5281/zenodo.24370617",
+    "record_url": "https://zenodo.org/records/24370617",
+    "availability": "Release availability is established by the public record and the files listed there; recording this DOI identifier does not itself assert publication."
   },
   "package_count": 17,
   "total_archive_bytes": 5243091104,
@@ -332,5 +331,86 @@
         "https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656"
       ]
     }
-  ]
+  ],
+  "supplemental_metadata": {
+    "files": [
+      {
+        "filename": "ARCHIVE_SHA256SUMS.txt",
+        "role": "Release metadata, attribution, licence scope or checksums",
+        "license_scope": "Eligible original author text CC-BY-4.0; copied licence/third-party notices retain their own terms"
+      },
+      {
+        "filename": "CC-BY-4.0-NOTICE.txt",
+        "role": "Release metadata, attribution, licence scope or checksums",
+        "license_scope": "Eligible original author text CC-BY-4.0; copied licence/third-party notices retain their own terms"
+      },
+      {
+        "filename": "CITATION.cff",
+        "role": "Release metadata, attribution, licence scope or checksums",
+        "license_scope": "Eligible original author text CC-BY-4.0; copied licence/third-party notices retain their own terms"
+      },
+      {
+        "filename": "LICENSE",
+        "role": "Release metadata, attribution, licence scope or checksums",
+        "license_scope": "Author original software MIT licence text"
+      },
+      {
+        "filename": "PUBLIC_METADATA_SHA256SUMS.txt",
+        "role": "Release metadata, attribution, licence scope or checksums",
+        "license_scope": "Release checksum metadata; hashes cover all other supplemental files"
+      },
+      {
+        "filename": "README.md",
+        "role": "Release metadata, attribution, licence scope or checksums",
+        "license_scope": "Eligible original author text CC-BY-4.0; copied licence/third-party notices retain their own terms"
+      },
+      {
+        "filename": "RELEASE_ARCHIVE_MAP.json",
+        "role": "Release metadata, attribution, licence scope or checksums",
+        "license_scope": "Eligible original author text CC-BY-4.0; copied licence/third-party notices retain their own terms"
+      },
+      {
+        "filename": "STATSBOMB_ATTRIBUTION.md",
+        "role": "Release metadata, attribution, licence scope or checksums",
+        "license_scope": "Eligible original author text CC-BY-4.0; copied licence/third-party notices retain their own terms"
+      },
+      {
+        "filename": "THIRD_PARTY_NOTICES.md",
+        "role": "Release metadata, attribution, licence scope or checksums",
+        "license_scope": "Eligible original author text CC-BY-4.0; copied licence/third-party notices retain their own terms"
+      },
+      {
+        "filename": "license_scope.json",
+        "role": "Release metadata, attribution, licence scope or checksums",
+        "license_scope": "Eligible original author text CC-BY-4.0; copied licence/third-party notices retain their own terms"
+      },
+      {
+        "filename": "license_scope_statsbomb_addendum.json",
+        "role": "Release metadata, attribution, licence scope or checksums",
+        "license_scope": "Eligible original author text CC-BY-4.0; copied licence/third-party notices retain their own terms"
+      },
+      {
+        "filename": "public_manifest.json",
+        "role": "Release metadata, attribution, licence scope or checksums",
+        "license_scope": "Eligible original author text CC-BY-4.0; copied licence/third-party notices retain their own terms"
+      },
+      {
+        "filename": "statsbomb-logo.png",
+        "role": "Unmodified official third-party brand asset for source attribution",
+        "license_scope": "Third-party brand asset; excluded from author MIT/CC-BY-4.0 grants"
+      },
+      {
+        "filename": "statsbomb_asset_manifest.json",
+        "role": "Release metadata, attribution, licence scope or checksums",
+        "license_scope": "Eligible original author text CC-BY-4.0; copied licence/third-party notices retain their own terms"
+      },
+      {
+        "filename": "zenodo_description.html",
+        "role": "Release metadata, attribution, licence scope or checksums",
+        "license_scope": "Eligible original author text CC-BY-4.0; copied licence/third-party notices retain their own terms"
+      }
+    ],
+    "hashes": "PUBLIC_METADATA_SHA256SUMS.txt covers all supplemental files except itself. This manifest deliberately does not recursively hash itself.",
+    "archive_count_unchanged": 17
+  }
 }

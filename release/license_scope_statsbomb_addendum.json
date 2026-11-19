@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "applies_to": [
+    "statsbomb-logo.png",
+    "release/assets/statsbomb-logo.png"
+  ],
+  "owner": "StatsBomb / relevant brand rights holder",
+  "author_license_exclusion": [
+    "MIT",
+    "CC-BY-4.0"
+  ],
+  "permission_basis": "Provider README requests use of its logo when publishing, sharing or distributing analyses based on StatsBomb data; supplied official logo is used unchanged only for that attribution.",
+  "not_a_general_brand_license": true,
+  "analysis_scope_unchanged": "Underlying-results payload/body_goal13 remains subject to the retained StatsBomb Public Data User Agreement and excluded from the author MIT/CC-BY grants.",
+  "numerical_payload_changes": false,
+  "original_archive_changes": false
+}

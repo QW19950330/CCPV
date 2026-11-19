@@ -25,3 +25,9 @@ Credit [StatsBomb Open Data](https://github.com/statsbomb/open-data), now redire
 ## Historical GSR / SoccerNet-labelled analyses
 
 Acquisition, exact source identity and ball lineage remain unresolved for the historical files. Only nonreconstructive analyses, hashes and methods are within this release scope. No current provider licence is used to authenticate or grant redistribution rights to those older records. The `body_legacy50` and mixed-coordinate `S7` boundaries remain explicit.
+
+## StatsBomb brand-asset supplement
+
+<img src="assets/statsbomb-logo.png" alt="StatsBomb logo" width="420">
+
+This unchanged official logo supplies the requested acknowledgement for the included StatsBomb-derived analysis. The logo and brand are excluded from author MIT/CC BY licences. See [the attribution statement](STATSBOMB_ATTRIBUTION.md), `statsbomb_asset_manifest.json` and `license_scope_statsbomb_addendum.json`. No endorsement is implied.

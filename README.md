@@ -3,7 +3,9 @@
 Source repository for **Trajectory-based model-input interventions and reference-dependent player attribution in football**.
 
 Repository: https://github.com/QW19950330/CCPV  
-Companion archive collection: **CCPV revision: frozen code, derived inputs, and evaluation artifacts**. Zenodo draft 24370617 has reserved DOI `10.5281/zenodo.24370617`; it is not yet published or registered in this snapshot. This reservation is not a claim that the files are publicly downloadable. See [release/public_manifest.json](release/public_manifest.json) for the exact archive filenames, sizes and SHA-256 identities.
+Companion archive collection: **CCPV revision: frozen code, derived inputs, and evaluation artifacts**. Companion record DOI: `10.5281/zenodo.24370617`; availability is established by the public record. See [release/public_manifest.json](release/public_manifest.json) for the exact archive filenames, sizes and SHA-256 identities.
+
+This metadata revision preserves the frozen source snapshot; [SOURCE_SNAPSHOT_PROVENANCE.json](SOURCE_SNAPSHOT_PROVENANCE.json) distinguishes byte-identical source files from updated release metadata.
 
 ## What is in this clone
 
@@ -91,3 +93,9 @@ This release provides bounded input checks, saved-statistic replay, frozen sourc
 Author-owned code is licensed under [MIT](LICENSE), Copyright (c) 2026 Fang Chen and Jiqian Lin. Third-party code/data retain their own terms and attributions; see [release/THIRD_PARTY_NOTICES.md](release/THIRD_PARTY_NOTICES.md) and the original notices within the bundles. Author-owned eligible inference weights, documentation and statistics follow the approved CC BY 4.0 scope in [release/license_scope.json](release/license_scope.json); that grant does not relicense provider materials.
 
 No provider raw mirrors, videos, original private-path checkpoint ZIPs, local execution logs, credentials or large data archives are included in this Git source tree. Publication of source/assets does not assert final manuscript approval or journal submission.
+
+## StatsBomb attribution
+
+<img src="release/assets/statsbomb-logo.png" alt="StatsBomb logo — source attribution" width="420">
+
+StatsBomb source attribution is retained for the shot-conditional Goal analyses in the companion results archive. The `payload/body_goal13/` subtree remains subject to the StatsBomb source agreement, including its noncommercial and brand-credit conditions; it is excluded from the authors' MIT and CC BY 4.0 grants. The logo is a provider attribution asset and is not relicensed by the authors. These analyses do not imply StatsBomb endorsement. See [source-specific notices](release/THIRD_PARTY_NOTICES.md) and [licence scope](release/license_scope.json).

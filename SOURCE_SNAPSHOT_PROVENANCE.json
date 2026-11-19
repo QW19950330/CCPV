@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "revision_kind": "Release metadata and provider attribution only; no scientific source changes",
+  "original_public_snapshot": {
+    "repository": "https://github.com/QW19950330/CCPV",
+    "commit": "cecac049572cfe8f57f4f4af8a422551971f2439",
+    "tree": "7f5faeff38f2c50a88d9e0e6e645bcf78810c052",
+    "files": 406,
+    "bytes": 2872882,
+    "public_file_manifest_sha256": "0ae24de65534bb90a16f209a94f6eba62514f1342fcd9823062dea898ec35911",
+    "tree_inventory_sha256": "d2579a64f3099525421d0371e57d2ee9291c808f7a2c499254f8202dceee8ebd"
+  },
+  "preserved_original_archive_members": 391,
+  "preserved_original_python_files": 269,
+  "unchanged_new_helper_files": [
+    "materialize_code.py",
+    "verify_source_tree.py"
+  ],
+  "current_manifest": "PUBLIC_FILE_MANIFEST.json",
+  "metadata_identity_note": "Updated release files and mapped logo paths have their own current SHA/size entries; they are not represented as unchanged original source bytes.",
+  "scientific_changes": 0
+}

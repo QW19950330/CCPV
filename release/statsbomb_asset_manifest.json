@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "asset": {
+    "filename": "statsbomb-logo.png",
+    "bytes": 120793,
+    "sha256": "8ba5480785f0dc4be2342ec47c70509483eb79287f85f92be1dfba36fc2872a7",
+    "git_blob_sha1": "fc75fa646cba5d0fa9dfcf8b183646b5fe32d8cc",
+    "width": 5885,
+    "height": 943,
+    "source_repository": "https://github.com/hudl/open-data",
+    "source_commit": "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+    "source_path": "img/SB - Icon Lockup - Colour positive.png",
+    "official_source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/img/SB%20-%20Icon%20Lockup%20-%20Colour%20positive.png",
+    "retrieved_from_official_api": "https://api.github.com/repos/hudl/open-data/git/blobs/fc75fa646cba5d0fa9dfcf8b183646b5fe32d8cc",
+    "modified": false,
+    "github_distribution_path": "release/assets/statsbomb-logo.png",
+    "github_distribution_url": "https://raw.githubusercontent.com/QW19950330/CCPV/main/release/assets/statsbomb-logo.png"
+  },
+  "purpose": "Provider-requested source attribution for the included StatsBomb-based analysis; no endorsement.",
+  "license": "Third-party brand asset; expressly excluded from the author MIT/CC-BY-4.0 grants. Rights remain with the relevant brand owners; no general trademark licence is granted.",
+  "official_terms_url": "https://github.com/hudl/open-data/blob/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/README.md",
+  "official_media_route": "https://statsbomb.com/media-pack/"
+}

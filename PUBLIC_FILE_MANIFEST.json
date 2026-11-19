@@ -1,45 +1,74 @@
 {
-  "schema_version": 1,
-  "scope": "Explicit public Git source snapshot; no large binary data or internal execution receipt files.",
-  "self_exclusion": "This file lists every other file in the snapshot. Its own SHA/bytes are supplied in the external staging completion receipt to avoid circular hashing.",
+  "schema_version": 2,
+  "scope": "Current public source tree with final release metadata and provider logo; no scientific source changes.",
+  "self_exclusion": "Lists every other current file. Its own identity is supplied in the independent final snapshot completion receipt.",
+  "source_snapshot_provenance": "SOURCE_SNAPSHOT_PROVENANCE.json",
+  "release_metadata_mapping": "RELEASE_METADATA_MAPPING.json",
   "source_python_files_unchanged": 269,
   "source_members_unchanged": 391,
+  "unchanged_new_helper_files": 2,
   "files": [
     {
       "path": ".gitattributes",
       "bytes": 8,
       "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
-      "role": "New source-tree helper or documentation; no scientific calculation changed"
+      "role": "Source-tree documentation/helper/provenance",
+      "previous_snapshot_sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "unchanged_since_original_snapshot": true
     },
     {
       "path": ".gitignore",
       "bytes": 81,
       "sha256": "5b4e57e83c4c95fec8013adcfa4b3bdd091b3cb27c681d4f01f4aa9be0030d6b",
-      "role": "New source-tree helper or documentation; no scientific calculation changed"
+      "role": "Source-tree documentation/helper/provenance",
+      "previous_snapshot_sha256": "5b4e57e83c4c95fec8013adcfa4b3bdd091b3cb27c681d4f01f4aa9be0030d6b",
+      "unchanged_since_original_snapshot": true
     },
     {
       "path": "CITATION.cff",
-      "bytes": 749,
-      "sha256": "997e0cc2a057110e84c9a158bfbbb859e92c8550941a7050dda2ba581686e698",
-      "role": "Approved release metadata copied without byte changes"
+      "bytes": 824,
+      "sha256": "b09d9e1862fb03639dad0a6f5154a0eab6109ef1a37e212f2a4275eebde1ca06",
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "previous_snapshot_sha256": "997e0cc2a057110e84c9a158bfbbb859e92c8550941a7050dda2ba581686e698",
+      "unchanged_since_original_snapshot": false
     },
     {
       "path": "LICENSE",
       "bytes": 1081,
       "sha256": "50117125c3e1e2e52c05af014f002b63fb51f13fc59949f7590ca9da67b9d47c",
-      "role": "Approved release metadata copied without byte changes"
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "previous_snapshot_sha256": "50117125c3e1e2e52c05af014f002b63fb51f13fc59949f7590ca9da67b9d47c",
+      "unchanged_since_original_snapshot": true
     },
     {
       "path": "README.md",
-      "bytes": 9319,
-      "sha256": "f7ff8bdb6575820e40e2bde60d01d0b542c2a26aa2b32745eccf01433c2a63b6",
-      "role": "New source-tree helper or documentation; no scientific calculation changed"
+      "bytes": 10111,
+      "sha256": "46b4154de571ffe31415f5da647bf66676cc3bc70fb06fb9837787de0ee382e8",
+      "role": "Source-tree documentation/helper/provenance",
+      "previous_snapshot_sha256": "f7ff8bdb6575820e40e2bde60d01d0b542c2a26aa2b32745eccf01433c2a63b6",
+      "unchanged_since_original_snapshot": false
+    },
+    {
+      "path": "RELEASE_METADATA_MAPPING.json",
+      "bytes": 6311,
+      "sha256": "0c333d096a649c5b3a39f23932d5e685fb86386ee654633e58ef6a3ddd26b476",
+      "role": "Source-tree documentation/helper/provenance",
+      "added_in_metadata_revision": true
     },
     {
       "path": "SOURCE_ARCHIVES.json",
-      "bytes": 1946,
-      "sha256": "ee6626f313140ff73c07266748e7717458628988a31c41433b0135171cfedbe9",
-      "role": "New source-tree helper or documentation; no scientific calculation changed"
+      "bytes": 1941,
+      "sha256": "c65e31ae610f4c8640adc2bbafab8da192df34b2b8bb9a0f94e230ba6dd475a1",
+      "role": "Source-tree documentation/helper/provenance",
+      "previous_snapshot_sha256": "ee6626f313140ff73c07266748e7717458628988a31c41433b0135171cfedbe9",
+      "unchanged_since_original_snapshot": false
+    },
+    {
+      "path": "SOURCE_SNAPSHOT_PROVENANCE.json",
+      "bytes": 1007,
+      "sha256": "59520e8632293b670b16012012544294b562bd1426ce2e7a4bff2d99b97aba28",
+      "role": "Source-tree documentation/helper/provenance",
+      "added_in_metadata_revision": true
     },
     {
       "path": "bundles/diagnostic_exact/DEPENDENCY_ROUTES.json",
@@ -3564,49 +3593,158 @@
       "path": "materialize_code.py",
       "bytes": 3871,
       "sha256": "4200d50170752f99867bd14d382b26fbf84e6be890b9711ab358e01c6a3f3bfc",
-      "role": "New source-tree helper or documentation; no scientific calculation changed"
+      "role": "Source-tree documentation/helper/provenance",
+      "previous_snapshot_sha256": "4200d50170752f99867bd14d382b26fbf84e6be890b9711ab358e01c6a3f3bfc",
+      "unchanged_since_original_snapshot": true
+    },
+    {
+      "path": "release/ARCHIVE_SHA256SUMS.txt",
+      "bytes": 2177,
+      "sha256": "8d593f1267c0dd3e3932b87f9c927b54ab50828eb8fd88fa6ed1bbf541c5475a",
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "public_metadata_source_sha256": "8d593f1267c0dd3e3932b87f9c927b54ab50828eb8fd88fa6ed1bbf541c5475a",
+      "presentation_transformation": "Exact copy",
+      "added_in_metadata_revision": true
     },
     {
       "path": "release/CC-BY-4.0-NOTICE.txt",
-      "bytes": 1196,
-      "sha256": "54bc7862f436938d01a5fceba7937b70462ad41ac1a781c02ddb7b8717d11698",
-      "role": "Approved release metadata copied without byte changes"
+      "bytes": 1245,
+      "sha256": "7b8f431c22d9e7945854eebd4f077b33d51ce6a91e75fedd738bcd0146e24665",
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "public_metadata_source_sha256": "7b8f431c22d9e7945854eebd4f077b33d51ce6a91e75fedd738bcd0146e24665",
+      "presentation_transformation": "Exact copy",
+      "previous_snapshot_sha256": "54bc7862f436938d01a5fceba7937b70462ad41ac1a781c02ddb7b8717d11698",
+      "unchanged_since_original_snapshot": false
+    },
+    {
+      "path": "release/CITATION.cff",
+      "bytes": 824,
+      "sha256": "b09d9e1862fb03639dad0a6f5154a0eab6109ef1a37e212f2a4275eebde1ca06",
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "public_metadata_source_sha256": "b09d9e1862fb03639dad0a6f5154a0eab6109ef1a37e212f2a4275eebde1ca06",
+      "presentation_transformation": "Exact copy",
+      "added_in_metadata_revision": true
     },
     {
       "path": "release/LICENSE",
       "bytes": 1081,
       "sha256": "50117125c3e1e2e52c05af014f002b63fb51f13fc59949f7590ca9da67b9d47c",
-      "role": "Approved release metadata copied without byte changes"
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "public_metadata_source_sha256": "50117125c3e1e2e52c05af014f002b63fb51f13fc59949f7590ca9da67b9d47c",
+      "presentation_transformation": "Exact copy",
+      "previous_snapshot_sha256": "50117125c3e1e2e52c05af014f002b63fb51f13fc59949f7590ca9da67b9d47c",
+      "unchanged_since_original_snapshot": true
+    },
+    {
+      "path": "release/PUBLIC_METADATA_SHA256SUMS.txt",
+      "bytes": 1230,
+      "sha256": "9ce9a44e3db3585da55336c92ef0b4285d4275b192d6f9940dc075114dc02504",
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "public_metadata_source_sha256": "8b689656e55fc4ec78e9922966f0c4ebba6319a2cd4626d58de0f3b131c0febf",
+      "presentation_transformation": "Regenerated SHA-256 list for14 Git-mapped metadata members; original Zenodo flat-layout checksum retained unchanged at its source.",
+      "added_in_metadata_revision": true
+    },
+    {
+      "path": "release/README.md",
+      "bytes": 6585,
+      "sha256": "b30916ca44ab4e1d873b6ce814c274b4bac8b29ce012c519ef02914606f11249",
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "public_metadata_source_sha256": "d5d774fbfdbaab32989b5c8b1293fc9952f8f2e4fd817983387ffb2bd723e005",
+      "presentation_transformation": "Presentation-only image src path: ./statsbomb-logo.png -> assets/statsbomb-logo.png",
+      "added_in_metadata_revision": true
     },
     {
       "path": "release/RELEASE_ARCHIVE_MAP.json",
       "bytes": 3475,
       "sha256": "ab48ff8836f70f629268146d2dbe3169b31cd74c9c56fa26ec9a018eb2651f95",
-      "role": "Approved release metadata copied without byte changes"
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "public_metadata_source_sha256": "ab48ff8836f70f629268146d2dbe3169b31cd74c9c56fa26ec9a018eb2651f95",
+      "presentation_transformation": "Exact copy",
+      "previous_snapshot_sha256": "ab48ff8836f70f629268146d2dbe3169b31cd74c9c56fa26ec9a018eb2651f95",
+      "unchanged_since_original_snapshot": true
+    },
+    {
+      "path": "release/STATSBOMB_ATTRIBUTION.md",
+      "bytes": 1507,
+      "sha256": "ee99040b3b23b0e1c27015b53f79f4f72ddf57c22c3243e4f3db5f604ab60d76",
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "public_metadata_source_sha256": "8d742b6b1afdd095efa129cf4262905f005b091a93511acad6aebb541391ec35",
+      "presentation_transformation": "Presentation-only image src path: ./statsbomb-logo.png -> assets/statsbomb-logo.png",
+      "added_in_metadata_revision": true
     },
     {
       "path": "release/THIRD_PARTY_NOTICES.md",
-      "bytes": 3920,
-      "sha256": "16fb87200ecc20eeaaa62599f01f7b93eb77dac0966931ee70d13e279df1e60c",
-      "role": "Approved release metadata copied without byte changes"
+      "bytes": 4370,
+      "sha256": "404a120ceee36042355bfc42760e9846a79aaf60d90bfa31d2c2597859feb5b7",
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "public_metadata_source_sha256": "389f921eb7d2d9e56c3064d71e278c977d39f7010d32f675e00954df5944c66f",
+      "presentation_transformation": "Presentation-only image src path: ./statsbomb-logo.png -> assets/statsbomb-logo.png",
+      "previous_snapshot_sha256": "16fb87200ecc20eeaaa62599f01f7b93eb77dac0966931ee70d13e279df1e60c",
+      "unchanged_since_original_snapshot": false
+    },
+    {
+      "path": "release/assets/statsbomb-logo.png",
+      "bytes": 120793,
+      "sha256": "8ba5480785f0dc4be2342ec47c70509483eb79287f85f92be1dfba36fc2872a7",
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "public_metadata_source_sha256": "8ba5480785f0dc4be2342ec47c70509483eb79287f85f92be1dfba36fc2872a7",
+      "presentation_transformation": "Exact copy",
+      "added_in_metadata_revision": true
     },
     {
       "path": "release/license_scope.json",
-      "bytes": 12695,
-      "sha256": "7674d62c6582682d6aeb754005ba181d42b837c8c14556c8067ff86c94241862",
-      "role": "Approved release metadata copied without byte changes"
+      "bytes": 13288,
+      "sha256": "899129f1e792bd6283f2eb2cd696d40eb721a66e129c668e5645f62a3ded1f74",
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "public_metadata_source_sha256": "899129f1e792bd6283f2eb2cd696d40eb721a66e129c668e5645f62a3ded1f74",
+      "presentation_transformation": "Exact copy",
+      "previous_snapshot_sha256": "7674d62c6582682d6aeb754005ba181d42b837c8c14556c8067ff86c94241862",
+      "unchanged_since_original_snapshot": false
+    },
+    {
+      "path": "release/license_scope_statsbomb_addendum.json",
+      "bytes": 745,
+      "sha256": "cbdbfbe13e58f2585c646577f3929139f6d7a2e7f944c967ad1ba11ef788a724",
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "public_metadata_source_sha256": "cbdbfbe13e58f2585c646577f3929139f6d7a2e7f944c967ad1ba11ef788a724",
+      "presentation_transformation": "Exact copy",
+      "added_in_metadata_revision": true
     },
     {
       "path": "release/public_manifest.json",
-      "bytes": 16154,
-      "sha256": "072058bc375257b372ba279b30852018004b69211f631091ad5ac0735ffe7191",
-      "role": "Approved release metadata copied without byte changes"
+      "bytes": 20476,
+      "sha256": "c8a3c0f393f8fd5c1ef56f4e86ea1e7e91c09327ee2fe7930ce27f6f4b94753c",
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "public_metadata_source_sha256": "c8a3c0f393f8fd5c1ef56f4e86ea1e7e91c09327ee2fe7930ce27f6f4b94753c",
+      "presentation_transformation": "Exact copy",
+      "previous_snapshot_sha256": "072058bc375257b372ba279b30852018004b69211f631091ad5ac0735ffe7191",
+      "unchanged_since_original_snapshot": false
+    },
+    {
+      "path": "release/statsbomb_asset_manifest.json",
+      "bytes": 1480,
+      "sha256": "b2cc120e7f39d4c6fae7d6c90f36bddce6df153e7d50adedb7e79de960058309",
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "public_metadata_source_sha256": "b2cc120e7f39d4c6fae7d6c90f36bddce6df153e7d50adedb7e79de960058309",
+      "presentation_transformation": "Exact copy",
+      "added_in_metadata_revision": true
+    },
+    {
+      "path": "release/zenodo_description.html",
+      "bytes": 2895,
+      "sha256": "0a37a68aaf1a8082fc77b863fc1f65acd25658968c3176cb22776f30e8b97ce8",
+      "role": "Release metadata/provider attribution; scope in release/license_scope.json",
+      "public_metadata_source_sha256": "0a37a68aaf1a8082fc77b863fc1f65acd25658968c3176cb22776f30e8b97ce8",
+      "presentation_transformation": "Exact copy",
+      "added_in_metadata_revision": true
     },
     {
       "path": "verify_source_tree.py",
       "bytes": 891,
       "sha256": "e354700da0e37a57734e831460d4b8d66775462e87ea12bf9694ca9991bb48f2",
-      "role": "New source-tree helper or documentation; no scientific calculation changed"
+      "role": "Source-tree documentation/helper/provenance",
+      "previous_snapshot_sha256": "e354700da0e37a57734e831460d4b8d66775462e87ea12bf9694ca9991bb48f2",
+      "unchanged_since_original_snapshot": true
     }
   ]
 }
