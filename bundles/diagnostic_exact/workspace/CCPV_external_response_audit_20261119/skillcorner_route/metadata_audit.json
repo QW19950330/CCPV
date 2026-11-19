@@ -1,0 +1,414 @@
+{
+  "status": "COMPLETE_METADATA_ONLY_EXISTING_TEST_EXPOSURE_CONFIRMED",
+  "fixtures": [
+    {
+      "match_id": "skillcorner:1927964",
+      "locked_role": "test",
+      "cache_windows": 1308,
+      "previously_scored_distinct_windows": 64,
+      "prior_score_exposure": "CONFIRMED_20261023_SUMMARIZED_NOT_UNUSED",
+      "raw_files": [
+        {
+          "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/1927964/1927964_match.json",
+          "kind": "metadata",
+          "pinned_sha256": "f967f911c20f5c5f8c89bbe2020a30c92731173616d5a1e4bafeb65435278b76",
+          "pinned_bytes": 33400,
+          "present": true,
+          "actual_stat_bytes": 33400,
+          "byte_size_matches_pin": true,
+          "payload_read_in_this_audit": false
+        },
+        {
+          "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/1927964/1927964_tracking_extrapolated.jsonl",
+          "kind": "tracking",
+          "pinned_sha256": "858c7a756ca3d33017f864775af5999d2c0f364e58ab60ae040c8b9ebab17827",
+          "pinned_bytes": 91049828,
+          "present": true,
+          "actual_stat_bytes": 91049828,
+          "byte_size_matches_pin": true,
+          "payload_read_in_this_audit": false
+        },
+        {
+          "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/1927964/1927964_dynamic_events.csv",
+          "kind": "events",
+          "pinned_sha256": "638747f76b43690974f95958952dfe62c9e50d64648f9456f43f66d5d91201f3",
+          "pinned_bytes": 5509112,
+          "present": true,
+          "actual_stat_bytes": 5509112,
+          "byte_size_matches_pin": true,
+          "payload_read_in_this_audit": false
+        },
+        {
+          "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/1927964/1927964_phases_of_play.csv",
+          "kind": "phases",
+          "pinned_sha256": "9216447a63a912edcad1a4d36370372210dcc800a7f48fc10127fd7de9eae503",
+          "pinned_bytes": 117263,
+          "present": true,
+          "actual_stat_bytes": 117263,
+          "byte_size_matches_pin": true,
+          "payload_read_in_this_audit": false
+        }
+      ]
+    },
+    {
+      "match_id": "skillcorner:2006363",
+      "locked_role": "test",
+      "cache_windows": 1261,
+      "previously_scored_distinct_windows": 64,
+      "prior_score_exposure": "CONFIRMED_20261023_SUMMARIZED_NOT_UNUSED",
+      "raw_files": [
+        {
+          "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2006363/2006363_match.json",
+          "kind": "metadata",
+          "pinned_sha256": "26d4068baf7454d1e066b6e70715da6c7ac016b14963a3bfa3ed99ed7c3aba79",
+          "pinned_bytes": 33294,
+          "present": true,
+          "actual_stat_bytes": 33294,
+          "byte_size_matches_pin": true,
+          "payload_read_in_this_audit": false
+        },
+        {
+          "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2006363/2006363_tracking_extrapolated.jsonl",
+          "kind": "tracking",
+          "pinned_sha256": "61dfdbd83f8e654127b249b8503f062338c14ec0c9e65404bcf70fb7c1346bd4",
+          "pinned_bytes": 90591887,
+          "present": true,
+          "actual_stat_bytes": 90591887,
+          "byte_size_matches_pin": true,
+          "payload_read_in_this_audit": false
+        },
+        {
+          "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2006363/2006363_dynamic_events.csv",
+          "kind": "events",
+          "pinned_sha256": "430d5f840723c4c667b907e161716265b5ae4b87b4466a4883d3b95b5b5e5a58",
+          "pinned_bytes": 4794999,
+          "present": true,
+          "actual_stat_bytes": 4794999,
+          "byte_size_matches_pin": true,
+          "payload_read_in_this_audit": false
+        },
+        {
+          "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2006363/2006363_phases_of_play.csv",
+          "kind": "phases",
+          "pinned_sha256": "651610758454913a5082b217dccd23ba0e002482dbe39b685528c542d3dcdab6",
+          "pinned_bytes": 119862,
+          "present": true,
+          "actual_stat_bytes": 119862,
+          "byte_size_matches_pin": true,
+          "payload_read_in_this_audit": false
+        }
+      ]
+    },
+    {
+      "match_id": "skillcorner:2015213",
+      "locked_role": "test",
+      "cache_windows": 1312,
+      "previously_scored_distinct_windows": 64,
+      "prior_score_exposure": "CONFIRMED_20261023_SUMMARIZED_NOT_UNUSED",
+      "raw_files": [
+        {
+          "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2015213/2015213_match.json",
+          "kind": "metadata",
+          "pinned_sha256": "300342194bf3dcd9fe356ed30df26fd0ee6e8caeb8ce5d8cfd27cf90cd995dff",
+          "pinned_bytes": 27937,
+          "present": true,
+          "actual_stat_bytes": 27937,
+          "byte_size_matches_pin": true,
+          "payload_read_in_this_audit": false
+        },
+        {
+          "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2015213/2015213_tracking_extrapolated.jsonl",
+          "kind": "tracking",
+          "pinned_sha256": "413990d0024d84856ce1f2a16866b8887472c0cea22c61caef0d1f46505a609e",
+          "pinned_bytes": 102030769,
+          "present": true,
+          "actual_stat_bytes": 102030769,
+          "byte_size_matches_pin": true,
+          "payload_read_in_this_audit": false
+        },
+        {
+          "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2015213/2015213_dynamic_events.csv",
+          "kind": "events",
+          "pinned_sha256": "1452564da8278500f4672152a27e361d3f5f1b9d741493e598e5bf7729a88811",
+          "pinned_bytes": 4417152,
+          "present": true,
+          "actual_stat_bytes": 4417152,
+          "byte_size_matches_pin": true,
+          "payload_read_in_this_audit": false
+        },
+        {
+          "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2015213/2015213_phases_of_play.csv",
+          "kind": "phases",
+          "pinned_sha256": "4ccaa43d8c390ba1b4011bcdb63ee8208686a5d11f275ead130048239e8a0ba8",
+          "pinned_bytes": 134493,
+          "present": true,
+          "actual_stat_bytes": 134493,
+          "byte_size_matches_pin": true,
+          "payload_read_in_this_audit": false
+        }
+      ]
+    },
+    {
+      "match_id": "skillcorner:2017461",
+      "locked_role": "test",
+      "cache_windows": 1111,
+      "previously_scored_distinct_windows": 64,
+      "prior_score_exposure": "CONFIRMED_20261023_SUMMARIZED_NOT_UNUSED",
+      "raw_files": [
+        {
+          "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2017461/2017461_match.json",
+          "kind": "metadata",
+          "pinned_sha256": "db27759bf734dc8e3d9e56f047965cc7c74833bc3d0345ee3821ab97681ce4b9",
+          "pinned_bytes": 28545,
+          "present": true,
+          "actual_stat_bytes": 28545,
+          "byte_size_matches_pin": true,
+          "payload_read_in_this_audit": false
+        },
+        {
+          "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2017461/2017461_tracking_extrapolated.jsonl",
+          "kind": "tracking",
+          "pinned_sha256": "59cfa5588efee041da439f44df5b5b92f2b7305571dc831164e3d05f7415787a",
+          "pinned_bytes": 89543442,
+          "present": true,
+          "actual_stat_bytes": 89543442,
+          "byte_size_matches_pin": true,
+          "payload_read_in_this_audit": false
+        },
+        {
+          "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2017461/2017461_dynamic_events.csv",
+          "kind": "events",
+          "pinned_sha256": "d4ce943cd9b912cfcf1f6d2744c9f4ecd6db4d5f7bcd6152b946e2f5ba308878",
+          "pinned_bytes": 3957366,
+          "present": true,
+          "actual_stat_bytes": 3957366,
+          "byte_size_matches_pin": true,
+          "payload_read_in_this_audit": false
+        },
+        {
+          "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2017461/2017461_phases_of_play.csv",
+          "kind": "phases",
+          "pinned_sha256": "5331495ecea48056df56dc843864bf36f366f7bca3898d82273eba7a3a54eba5",
+          "pinned_bytes": 118313,
+          "present": true,
+          "actual_stat_bytes": 118313,
+          "byte_size_matches_pin": true,
+          "payload_read_in_this_audit": false
+        }
+      ]
+    }
+  ],
+  "cache": [
+    {
+      "path": "CCPV_data_expansion_20261022/data/skillcorner_10hz.npz",
+      "present": true,
+      "stat_bytes": 116411793,
+      "existing_manifest_sha256": "0e889418572d8c636171b101473b9428000596dc722f4e7ea053d056cab29091",
+      "hash_recomputed_in_this_audit": false,
+      "numeric_members_opened": false
+    },
+    {
+      "path": "CCPV_confirmation_20261023/data/reserved_test_256.npz",
+      "present": true,
+      "stat_bytes": 1183629,
+      "existing_manifest_sha256": "0e542ccf9b266269d4de6b5a5288d3c6a3b3a20b3883284e3c9c8ab0146b8fdc",
+      "hash_recomputed_in_this_audit": false,
+      "numeric_members_opened": false
+    }
+  ],
+  "source_commit": "4340d274572876239c154c90bc507a9b3250a656",
+  "actual_cache_total_test_windows": 4992,
+  "prior_test_windows": 256,
+  "prior_test_execution": {
+    "status": "SUMMARIZED",
+    "test_metrics_viewed": true,
+    "evaluation_started_utc": "2026-10-23T17:44:17.380707+00:00",
+    "evaluated_utc": "2026-10-23T17:46:09.523216+00:00",
+    "model_cells": 20,
+    "scored_records": 10240,
+    "scored_records_are_not_independent_windows": true,
+    "test_result_sha256": "c90bbd9174ec4eb0fc44219b312ed3c796cbab406712647f9e8bee6a9ab11b0b",
+    "score_values_read": false
+  },
+  "split_cache_stride_discrepancy": {
+    "prelock_stride_frames": 10,
+    "actual_cache_stride_frames": 30,
+    "actual_rule": "non-overlapping contiguous 30-frame windows within a single period; no period boundary crossing; 10 history + 20 future frames at 10 Hz",
+    "do_not_silently_change_cache": true
+  },
+  "source_schema": {
+    "fps": 10,
+    "history_frames": 10,
+    "future_frames": 20,
+    "entities": 23,
+    "home_slots": "0..10",
+    "away_slots": "11..21",
+    "ball_slot": 22,
+    "ball_source_id": "ball semantic key from source ball_data; not globally unique numeric object ID",
+    "metadata_fields": [
+      "match_ids",
+      "clip_ids",
+      "source_period",
+      "source_frame_ids",
+      "frame_times_s",
+      "entity_ids",
+      "teams",
+      "test_indices"
+    ],
+    "numerical_fields": [
+      "states",
+      "valid",
+      "position_valid",
+      "real_observed_mask"
+    ],
+    "coordinate_system": "centered physical meters scaled per source pitch to 105 x 68 m",
+    "identity_union": "all30 frames, sorted IDs within home/away, max11 each",
+    "admission": "at least one valid history state AND at least one valid future state; retrospective existing cache"
+  },
+  "unresolved_qa": {
+    "home_roster_under11_velocity_loop": "Source confirmed enumerate(concat home IDs + away IDs) differs from physical offset11; first-history-frame away previous-ID mismatch and unvisited trailing away slots possible.",
+    "affected_test_count": null,
+    "test_values_not_read": true,
+    "existing_position_truth_recovery": "Only16 development fixtures, fixes erased position-only xy; does not establish correction of test velocity-slot mapping.",
+    "existing_specific_slot_fix_found_in_bounded_search": false,
+    "absence_of_record_is_not_proof_of_no_fix": true
+  },
+  "protocol_review": {
+    "path": "CCPV_external_response_audit_20261119/skillcorner_response_protocol.json",
+    "sha256": "447f0b494fe04ae795323cd8e0313ee45d1f4a49585f7817ba366da2e2135827",
+    "confirmed": [
+      "four IDs and4992windows",
+      "actual stride30 disclosure",
+      "prior exposure and retrospective population disclosure",
+      "D epoch4/96updates assets",
+      "same history-only actor rule and semantic ball",
+      "freeze before new extraction or response"
+    ],
+    "clarifications": [
+      "Do not describe this as independent unseen/blind test; use previously exposed source-test matches.",
+      "Do not equate all homeID<11 windows with numerically wrong valid histories; separately record mismatched previous-ID candidates and omitted away slots.",
+      "A prefix from the retrospective cache is not a population sampled without future availability.",
+      "Existing source-test result directions were not used for route selection."
+    ]
+  },
+  "next_step": "Prepare stream-prefix and identity registry extractor under new source seal, then extract4992 first10 frames without future numerical materialization; no forward before parent seal and checks.",
+  "read_boundary": {
+    "new_npz_members_decoded": 0,
+    "new_tracking_records_decoded": 0,
+    "new_event_labels_read": 0,
+    "checkpoints_loaded": 0,
+    "model_calls": 0,
+    "training_updates": 0,
+    "scope": "Existing JSON/Markdown/py metadata and code; fs.stat of payloads only."
+  },
+  "evidence": [
+    {
+      "path": "CCPV_data_expansion_20261022/data/skillcorner_split.json",
+      "bytes": 1384,
+      "sha256": "b05dee0ac36b1aa7e6c11e3f085a640d06d11fe78facc3444b980f2cff8be945",
+      "kind": "existing_metadata_or_audit"
+    },
+    {
+      "path": "CCPV_data_expansion_20261022/data/skillcorner_10hz.json",
+      "bytes": 21916,
+      "sha256": "932bf514b8b6b3739fe9998edc4f8a758221e77391cdc0400b9a6855040ee435",
+      "kind": "existing_metadata_or_audit"
+    },
+    {
+      "path": "CCPV_data_expansion_20261022/artifacts/skillcorner_download_manifest.json",
+      "bytes": 49282,
+      "sha256": "74082c2931dbd9fcf90b737b5597a29e74b0d667134a3a50da0aec56f6560bd1",
+      "kind": "existing_metadata_or_audit"
+    },
+    {
+      "path": "CCPV_data_expansion_20261022/artifacts/aligned_database_audit_v2.json",
+      "bytes": 30036,
+      "sha256": "882fcd04c42bf715dfa9ae299d564699687ac0bf1b12013686773734e29a9084",
+      "kind": "existing_metadata_or_audit"
+    },
+    {
+      "path": "CCPV_data_expansion_20261022/scripts/prepare_skillcorner.py",
+      "bytes": 21578,
+      "sha256": "c958d42887e802488d0f331e12274199f1ad690279a835f8bc4b6d36e53bbb3a",
+      "kind": "source_only"
+    },
+    {
+      "path": "CCPV_reviewer_core_pilot_20261024/forecasting/prepare.py",
+      "bytes": 7942,
+      "sha256": "513dc7ae9fac7ff75fff16050a1f7b2d0d521d91be76fb154e9c24da3cde13ee",
+      "kind": "source_only"
+    },
+    {
+      "path": "CCPV_reviewer_core_pilot_20261024/forecasting/data/manifest.json",
+      "bytes": 13887,
+      "sha256": "9e30a094503d38d20d5afd08e7aa726f868bed692ec3d0bbb93d14584a1ba5c9",
+      "kind": "existing_metadata_or_audit"
+    },
+    {
+      "path": "CCPV_reviewer_core_pilot_20261024/forecasting/POSITION_TRUTH_IMPACT_AUDIT.md",
+      "bytes": 5275,
+      "sha256": "b65dd1e6833ccb3fcff9808ff3a372f922f0fd17920678bbe091540de430be5c",
+      "kind": "existing_metadata_or_audit"
+    },
+    {
+      "path": "CCPV_reviewer_core_pilot_20261024/forecasting/data/position_truth_v2_manifest.json",
+      "bytes": 17709,
+      "sha256": "021fa9279aa0bb6ad1c963118d781baa4b6c29af26fef0c29fcb710da0af615f",
+      "kind": "existing_metadata_or_audit"
+    },
+    {
+      "path": "CCPV_confirmation_20261023/protocol.json",
+      "bytes": 4255,
+      "sha256": "0e105c379e6d080960f76b89a6aa5b93f77d96a717690d46f6b1cabb57f60af0",
+      "kind": "existing_metadata_or_audit"
+    },
+    {
+      "path": "CCPV_confirmation_20261023/data/reserved_test_manifest.json",
+      "bytes": 2416,
+      "sha256": "9b258ff63531d6072a7c156808c39db1c89688168ee9c057871fc606e014003f",
+      "kind": "existing_metadata_or_audit"
+    },
+    {
+      "path": "CCPV_confirmation_20261023/runs/reserved_test_confirmation_v1/status.json",
+      "bytes": 16904,
+      "sha256": "e14c8822295c0d27161e8e1d4bc69bdc928bc93f08d37e6ecce8254e8e105b58",
+      "kind": "existing_metadata_or_audit"
+    },
+    {
+      "path": "CCPV_confirmation_20261023/scripts/run_confirmation.py",
+      "bytes": 18322,
+      "sha256": "b354c26398c7e4e0f31912d69c7799d3169ae28df2759df151e977111e097089",
+      "kind": "source_only"
+    },
+    {
+      "path": "CCPV_reviewer_validation_program_20261026/full_intervention/data_prepare.py",
+      "bytes": 20682,
+      "sha256": "d2678d3bea5f8745504ebe97ec8d6866089fd90db95a3a9b10eaa2b41a36bea8",
+      "kind": "source_only"
+    },
+    {
+      "path": "CCPV_reviewer_validation_program_20261026/full_intervention/assets.json",
+      "bytes": 15953,
+      "sha256": "90b4417360407b6d08229276813859d93819a629771a197b6643afb934dbfb67",
+      "kind": "existing_metadata_or_audit"
+    },
+    {
+      "path": "CCPV_continuous_factual_pilot_20261112/prepare_cohort.py",
+      "bytes": 2120,
+      "sha256": "0f947a267b36c255443c4feb302055eb58218b0c83c2fbab2edb195418d78346",
+      "kind": "source_only"
+    },
+    {
+      "path": "CCPV_training_coverage_audit_20261112/result.json",
+      "bytes": 4350,
+      "sha256": "ce6cf6e6e0e0b6b0d1950078ae4e9d87877a7a26ca06970fdc58b182717a30b1",
+      "kind": "existing_metadata_or_audit"
+    },
+    {
+      "path": "CCPV_external_response_audit_20261119/skillcorner_response_protocol.json",
+      "bytes": 8135,
+      "sha256": "447f0b494fe04ae795323cd8e0313ee45d1f4a49585f7817ba366da2e2135827",
+      "kind": "existing_metadata_or_audit"
+    }
+  ]
+}

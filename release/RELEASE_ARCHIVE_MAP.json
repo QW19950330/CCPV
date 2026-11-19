@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "archives": {
+    "CCPV_reproduction_assets_20261119/derived_inputs/CCPV_idsse_core_derived_inputs_20261119_v1.zip": {
+      "path": "CCPV_idsse_core_derived_inputs_20261119_v1_public_composed_v1.zip",
+      "sha256": "a4293758369d1e3e1dab2461ef8d7307341f87e81c8ab89f720dab1433a19677"
+    },
+    "CCPV_reproduction_assets_20261119/derived_inputs/CCPV_idsse_terminal_derived_inputs_20261119_v1.zip": {
+      "path": "CCPV_idsse_terminal_derived_inputs_20261119_v1_public_composed_v1.zip",
+      "sha256": "e693bacb11f493465685594e80e62d566aa2ccfd94d15627bcd556f22af95f72"
+    },
+    "CCPV_reproduction_assets_20261119/derived_inputs/CCPV_idsse_readout_derived_inputs_20261119_v1.zip": {
+      "path": "CCPV_idsse_readout_derived_inputs_20261119_v1_public_composed_v1.zip",
+      "sha256": "1d277960446469642dad94c6a7fb371c73fa49adc2579ab103a62b586fcbb479"
+    },
+    "CCPV_reproduction_assets_20261119/derived_inputs/CCPV_skillcorner_world_derived_inputs_20261119_v1.zip": {
+      "path": "CCPV_skillcorner_world_derived_inputs_20261119_v1_public_composed_v1.zip",
+      "sha256": "cf7634acb2764bc52e4b8b8d710f1b8bc02703c33b62090e5503d19b6ca8956d"
+    },
+    "CCPV_reproduction_assets_20261119/derived_inputs/CCPV_idsse_guard_derived_inputs_20261119_v1.zip": {
+      "path": "CCPV_idsse_guard_derived_inputs_20261119_v1_public_composed_v1.zip",
+      "sha256": "bd4ccd378e16e97e6752692472c26f354fbee6bccdcc5c64a7bf6f9a0335b076"
+    },
+    "CCPV_reproduction_assets_20261119/derived_inputs/CCPV_skillcorner_derived_inputs_20261119_v1.zip": {
+      "path": "CCPV_skillcorner_inputs_public_candidate_20261119_v1.zip",
+      "sha256": "16d39b99aec4a734d31191c74e0c0fdddacf56471c5a7117733b08fb072a88bc"
+    },
+    "CCPV_release_candidate_20261119/support_closure/CCPV_support_materials_local_candidate_20261119_v1.zip": {
+      "path": "CCPV_support_materials_local_candidate_20261119_v1_public_composed_v1.zip",
+      "sha256": "205ca860910b75123e7090ab55ffea7f32ffe53db78d8bdf12e60d67750e8ea2"
+    },
+    "CCPV_reproduction_assets_20261119/results/CCPV_underlying_results_candidate_20261119_v1.zip": {
+      "path": "CCPV_underlying_results_public_candidate_20261119_v2.zip",
+      "sha256": "4b6cc58362744c54c829568ce83974abfe403cdcf4780a0ceb2d5588e739357d"
+    },
+    "CCPV_release_candidate_20261119/public_runtime_binding/CCPV_exact_replay_npz_compatibility_candidate_20261119_v1.zip": {
+      "path": "CCPV_exact_replay_npz_compatibility_candidate_20261119_v1.zip",
+      "sha256": "56c093b50fef570179cb02afaef16858d462a786d93b856c85ca021588a23906"
+    },
+    "CCPV_release_candidate_20261119/public_runtime_binding/CCPV_table6_saved_inputs_public_candidate_20261119_v1.zip": {
+      "path": "CCPV_table6_saved_inputs_public_candidate_20261119_v1.zip",
+      "sha256": "a29d6325fe2be2140e389131314612676517bf81a0b7c667d6b7a0b7bc1da1dc"
+    },
+    "CCPV_reproduction_assets_20261119/legacy_controls/CCPV_legacy_controls_local_review_20261119_v2.zip": {
+      "path": "CCPV_legacy_controls_local_review_20261119_v2.zip",
+      "sha256": "a73b6d075ed470be2129b55fefe1464a1b71b4fc11287a3e7dc9ef47e3bfdfd7"
+    }
+  },
+  "scope": "Public download-directory binding: original archive logical identifiers resolve to the eleven approved clean archive basenames. Only download location identifiers differ from the verified staging map; archive bytes and SHA-256 are unchanged. This is a new external binding, not a claim to retain the previous map hash."
+}

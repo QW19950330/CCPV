@@ -1,0 +1,480 @@
+{
+  "schema": 1,
+  "status": "EXPLICIT_REUSE_MAP_NOT_FULL_REPLAY_CERTIFICATE",
+  "old_portable_code_package": {
+    "path": "CCPV_portable_source_release_candidate_20261119_v1.zip",
+    "sha256": "cc157a95f219a9699b0e6e08dc6f638f197f995122f573b6b7714b0e9ee95339",
+    "bytes": 1342647,
+    "base": "CCPV_release_candidate_20261119/code_review",
+    "byte_identical_code_reuse": [
+      {
+        "source": "CCPV_reviewer_validation_program_20261026/full_intervention/model_source/motion_models.py",
+        "sha256": "950b183c5d916e94ce5af154e27556cb8c9cd35b4092db22fb5735ac5ad005a8",
+        "members": [
+          "frozen_inference/table3/motion_models.py",
+          "frozen_inference/table4/model_source/motion_models.py",
+          "raw_neural_training/table3/motion_models.py",
+          "remaining_training/table3_A/code/motion_models.py",
+          "remaining_training/table4/model_source/motion_models.py"
+        ]
+      },
+      {
+        "source": "CCPV_reviewer_validation_program_20261026/full_intervention/model_source/consistent_core/__init__.py",
+        "sha256": "1cdb8ce2e6602f1790ec35ee82755d25c544ba7e550220512376c7d3bd7b98f3",
+        "members": [
+          "frozen_inference/table3/consistent_core/__init__.py",
+          "frozen_inference/table4/model_source/consistent_core/__init__.py",
+          "raw_neural_training/table3/consistent_core/__init__.py",
+          "remaining_training/table3_A/code/consistent_core/__init__.py",
+          "remaining_training/table4/model_source/consistent_core/__init__.py"
+        ]
+      },
+      {
+        "source": "CCPV_reviewer_validation_program_20261026/full_intervention/model_source/consistent_core/models.py",
+        "sha256": "062bf4e0e606cecfa864919773a7b9aff5d871210b5616c07c7494236535a830",
+        "members": [
+          "frozen_inference/table3/consistent_core/models.py",
+          "frozen_inference/table4/model_source/consistent_core/models.py",
+          "raw_neural_training/table3/consistent_core/models.py",
+          "remaining_training/table3_A/code/consistent_core/models.py",
+          "remaining_training/table4/model_source/consistent_core/models.py"
+        ]
+      },
+      {
+        "source": "CCPV_reviewer_validation_program_20261026/full_intervention/model_source/consistent_core/gap_model.py",
+        "sha256": "2c11901d247071f434278b1c843b6c1f9740b8a6fee376f13b8bb8afc11c03bd",
+        "members": [
+          "frozen_inference/table4/model_source/consistent_core/gap_model.py",
+          "remaining_training/table4/model_source/consistent_core/gap_model.py"
+        ]
+      },
+      {
+        "source": "CCPV_reproduction/ccpv/__init__.py",
+        "sha256": "1cdb8ce2e6602f1790ec35ee82755d25c544ba7e550220512376c7d3bd7b98f3",
+        "members": [
+          "frozen_inference/table3/consistent_core/__init__.py",
+          "frozen_inference/table4/model_source/consistent_core/__init__.py",
+          "raw_neural_training/table3/consistent_core/__init__.py",
+          "remaining_training/table3_A/code/consistent_core/__init__.py",
+          "remaining_training/table4/model_source/consistent_core/__init__.py"
+        ]
+      }
+    ]
+  },
+  "clean_weights_package": {
+    "path": "CCPV_release_candidate_20261119/inference_weights/CCPV_clean_inference_weights_local_candidate_20261119_v1.zip",
+    "sha256": "abef2dcb7742e36c0e4f9a50b40001390b6eb22f674eee3b34e72e30bf948f40",
+    "bytes": 6001414,
+    "models": [
+      {
+        "original_source": "CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed0/world_last.pt",
+        "original_sha256": "cab539f3b7eab476d06a0174ad40df3ec9fde4485084062d0f49e5e7d29a0fc3",
+        "seed": 0,
+        "clean_payload": "payload/f6cc3f46234c7a8a9053fd366cfa2638229abc751cbcdd687e7db83162e9cac2.npz",
+        "clean_sha256": "f6cc3f46234c7a8a9053fd366cfa2638229abc751cbcdd687e7db83162e9cac2",
+        "clean_bytes": 62043,
+        "keys_exact": true,
+        "reader": "inference_adapter.py",
+        "guard_compatible": false
+      },
+      {
+        "original_source": "CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed1/world_last.pt",
+        "original_sha256": "6bc1007b8b06f6723cc456fe233246bb91d3b2eca532d71703a9a227e87b4487",
+        "seed": 1,
+        "clean_payload": "payload/b7dcfc3437be33d41a4342643683bd954447ab578f6eef691764fd7947517797.npz",
+        "clean_sha256": "b7dcfc3437be33d41a4342643683bd954447ab578f6eef691764fd7947517797",
+        "clean_bytes": 62075,
+        "keys_exact": true,
+        "reader": "inference_adapter.py",
+        "guard_compatible": false
+      },
+      {
+        "original_source": "CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed2/world_last.pt",
+        "original_sha256": "143ca82f2008b6248df79d01c89ebcdac847f8e533c3f39a4aab24fc7e2878d4",
+        "seed": 2,
+        "clean_payload": "payload/1ca025af1045fc3074345392229b2c729b3b09b84f23ed1cac19f0c836350e6d.npz",
+        "clean_sha256": "1ca025af1045fc3074345392229b2c729b3b09b84f23ed1cac19f0c836350e6d",
+        "clean_bytes": 61999,
+        "keys_exact": true,
+        "reader": "inference_adapter.py",
+        "guard_compatible": false
+      },
+      {
+        "original_source": "CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed3/world_last.pt",
+        "original_sha256": "cd3cd8c678875956a90385a1f52716c18f17604b0f7b8e6a8043106968fb39a0",
+        "seed": 3,
+        "clean_payload": "payload/5f791c0b6ef612fdd2f0c3ffaab547f6494c3b1b1a3bfb5b1ca782e7cafc1642.npz",
+        "clean_sha256": "5f791c0b6ef612fdd2f0c3ffaab547f6494c3b1b1a3bfb5b1ca782e7cafc1642",
+        "clean_bytes": 62051,
+        "keys_exact": true,
+        "reader": "inference_adapter.py",
+        "guard_compatible": false
+      },
+      {
+        "original_source": "CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed4/world_last.pt",
+        "original_sha256": "763e408e14aa8cd6f8295dc5ca9da2e58627609ce3c54fe8fb427954cd698c64",
+        "seed": 4,
+        "clean_payload": "payload/b3d6ce1f0a013644b2bb3f50acbd10ca992f4a998967ce1ee89c6b93c40e93ac.npz",
+        "clean_sha256": "b3d6ce1f0a013644b2bb3f50acbd10ca992f4a998967ce1ee89c6b93c40e93ac",
+        "clean_bytes": 62053,
+        "keys_exact": true,
+        "reader": "inference_adapter.py",
+        "guard_compatible": false
+      }
+    ]
+  },
+  "provider": {
+    "source": "https://github.com/SkillCorner/opendata",
+    "commit": "4340d274572876239c154c90bc507a9b3250a656",
+    "scope": "Only fixed SkillCorner repository and four source-test IDs; no video or events are needed for this diagnostic.",
+    "licence": "MIT as recorded in fixed repository; bundled original notice. No author code or weight licence is thereby granted.",
+    "fixed_url": "https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656",
+    "required_test_matches": [
+      {
+        "match_id": "skillcorner:1927964",
+        "files": [
+          {
+            "kind": "metadata",
+            "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/1927964/1927964_match.json",
+            "sha256": "f967f911c20f5c5f8c89bbe2020a30c92731173616d5a1e4bafeb65435278b76",
+            "bytes": 33400
+          },
+          {
+            "kind": "tracking",
+            "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/1927964/1927964_tracking_extrapolated.jsonl",
+            "sha256": "858c7a756ca3d33017f864775af5999d2c0f364e58ab60ae040c8b9ebab17827",
+            "bytes": 91049828
+          }
+        ]
+      },
+      {
+        "match_id": "skillcorner:2006363",
+        "files": [
+          {
+            "kind": "metadata",
+            "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2006363/2006363_match.json",
+            "sha256": "26d4068baf7454d1e066b6e70715da6c7ac016b14963a3bfa3ed99ed7c3aba79",
+            "bytes": 33294
+          },
+          {
+            "kind": "tracking",
+            "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2006363/2006363_tracking_extrapolated.jsonl",
+            "sha256": "61dfdbd83f8e654127b249b8503f062338c14ec0c9e65404bcf70fb7c1346bd4",
+            "bytes": 90591887
+          }
+        ]
+      },
+      {
+        "match_id": "skillcorner:2015213",
+        "files": [
+          {
+            "kind": "metadata",
+            "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2015213/2015213_match.json",
+            "sha256": "300342194bf3dcd9fe356ed30df26fd0ee6e8caeb8ce5d8cfd27cf90cd995dff",
+            "bytes": 27937
+          },
+          {
+            "kind": "tracking",
+            "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2015213/2015213_tracking_extrapolated.jsonl",
+            "sha256": "413990d0024d84856ce1f2a16866b8887472c0cea22c61caef0d1f46505a609e",
+            "bytes": 102030769
+          }
+        ]
+      },
+      {
+        "match_id": "skillcorner:2017461",
+        "files": [
+          {
+            "kind": "metadata",
+            "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2017461/2017461_match.json",
+            "sha256": "db27759bf734dc8e3d9e56f047965cc7c74833bc3d0345ee3821ab97681ce4b9",
+            "bytes": 28545
+          },
+          {
+            "kind": "tracking",
+            "path": "CCPV_data_expansion_20261022/raw/skillcorner/data/matches/2017461/2017461_tracking_extrapolated.jsonl",
+            "sha256": "59cfa5588efee041da439f44df5b5b92f2b7305571dc831164e3d05f7415787a",
+            "bytes": 89543442
+          }
+        ]
+      }
+    ],
+    "original_cache": {
+      "path": "CCPV_data_expansion_20261022/data/skillcorner_10hz.npz",
+      "sha256": "0e889418572d8c636171b101473b9428000596dc722f4e7ea053d056cab29091",
+      "bytes": 116411793,
+      "supplied": false,
+      "rebuild": "workspace/CCPV_data_expansion_20261022/scripts/prepare_skillcorner.py; full pinned 20-match tracking/metadata, original split and download manifest. Requires all matches to reconstruct full original archive SHA; not only the four test matches.",
+      "caveat": "Original archive has future-qualified 30-frame roster/cohort and source stride30, not prefix-only prospective sampling."
+    }
+  },
+  "implementation_lock_pins": [
+    {
+      "source_path": "CCPV_external_response_audit_20261119/skillcorner_response_protocol.json",
+      "expected_sha256": "7c6eead0eaafa99466eaa348e8261fa3ab5675941afeaac8d128127e514598f0",
+      "bytes": 8487,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_external_response_audit_20261119/skillcorner_response_protocol.json"
+    },
+    {
+      "source_path": "CCPV_external_response_audit_20261119/protocol_seal.json",
+      "expected_sha256": "53d424677f8950c8c8794283460a21639dc62ee7bea046455e248c06065bd977",
+      "bytes": 684,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_external_response_audit_20261119/protocol_seal.json"
+    },
+    {
+      "source_path": "CCPV_external_response_audit_20261119/run_skillcorner_response.py",
+      "expected_sha256": "7cd4ddc7a6b8a3bb6ff992a46e4cc6bb629f394f70b528b30a3300b4eac1a6af",
+      "bytes": 18348,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_external_response_audit_20261119/run_skillcorner_response.py"
+    },
+    {
+      "source_path": "CCPV_external_response_audit_20261119/design_review/review.json",
+      "expected_sha256": "0b7cf639c0b887ab34c8eaba55d1d49259cc918eac3cb2e68c4fde8b3be61f12",
+      "bytes": 3910,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_external_response_audit_20261119/design_review/review.json"
+    },
+    {
+      "source_path": "CCPV_external_response_audit_20261119/runner_review/targeted_synthetic.json",
+      "expected_sha256": "e8ed94d2a7e677254243e3a0a1a244b17ceddb8bedd18952a2f6a58b1be35b53",
+      "bytes": 1047,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_external_response_audit_20261119/runner_review/targeted_synthetic.json"
+    },
+    {
+      "source_path": "CCPV_external_response_audit_20261119/runner_review/runner_synthetic_after_review.json",
+      "expected_sha256": "e7e93825d72a80c73cc19a69582946b5bbfb455313af6d4d9c69a6cb40719beb",
+      "bytes": 348,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_external_response_audit_20261119/runner_review/runner_synthetic_after_review.json"
+    },
+    {
+      "source_path": "CCPV_external_response_audit_20261119/skillcorner_prepared/manifest.json",
+      "expected_sha256": "fca050097d10b5f38b40dd7910fe7feb273bea42e745bc67fc6fbdcbd2c407b3",
+      "bytes": 6667,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_external_response_audit_20261119/skillcorner_prepared/manifest.json"
+    },
+    {
+      "source_path": "CCPV_external_response_audit_20261119/skillcorner_prepared/metadata.json",
+      "expected_sha256": "f3a9423f5ca72256f5a29d4f62b20226666313385a35fad182133754b4fb98e3",
+      "bytes": 6433403,
+      "status": "NOT_IN_THIS_CODE_PACKAGE"
+    },
+    {
+      "source_path": "CCPV_external_response_audit_20261119/skillcorner_prepared/test_prefixes.npz",
+      "expected_sha256": "a14904ed5a215805ce390fa0885b99e2e49752da096d47b119ba0019b0b8b656",
+      "bytes": 8217989,
+      "status": "NOT_IN_THIS_CODE_PACKAGE"
+    },
+    {
+      "source_path": "CCPV_reviewer_validation_program_20261026/full_intervention/assets.json",
+      "expected_sha256": "90b4417360407b6d08229276813859d93819a629771a197b6643afb934dbfb67",
+      "bytes": 15953,
+      "status": "NORMALIZED_METADATA_ONLY_OLD_SHA_NOT_SUPPLIED",
+      "package_member": "public_metadata/CCPV_reviewer_validation_program_20261026/full_intervention/assets.json"
+    },
+    {
+      "source_path": "CCPV_reviewer_validation_program_20261026/full_intervention/operator_adapter.py",
+      "expected_sha256": "39c28628637461e5e3d90f802ea901ff7eed86e64e07fe7c1b4e49d2c1a88d9d",
+      "bytes": 14694,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_reviewer_validation_program_20261026/full_intervention/operator_adapter.py"
+    },
+    {
+      "source_path": "CCPV_reviewer_validation_program_20261026/full_intervention/model_source/api.py",
+      "expected_sha256": "f5726fe98c15c84f4dfe09647a3077847f3f65afc22ac3ae2bbd26506d39c316",
+      "bytes": 9484,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_reviewer_validation_program_20261026/full_intervention/model_source/api.py"
+    },
+    {
+      "source_path": "CCPV_reviewer_validation_program_20261026/full_intervention/model_source/motion_models.py",
+      "expected_sha256": "950b183c5d916e94ce5af154e27556cb8c9cd35b4092db22fb5735ac5ad005a8",
+      "bytes": 6000,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_reviewer_validation_program_20261026/full_intervention/model_source/motion_models.py"
+    },
+    {
+      "source_path": "CCPV_reviewer_validation_program_20261026/full_intervention/model_source/consistent_core/__init__.py",
+      "expected_sha256": "1cdb8ce2e6602f1790ec35ee82755d25c544ba7e550220512376c7d3bd7b98f3",
+      "bytes": 87,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_reviewer_validation_program_20261026/full_intervention/model_source/consistent_core/__init__.py"
+    },
+    {
+      "source_path": "CCPV_reviewer_validation_program_20261026/full_intervention/model_source/consistent_core/models.py",
+      "expected_sha256": "062bf4e0e606cecfa864919773a7b9aff5d871210b5616c07c7494236535a830",
+      "bytes": 25924,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_reviewer_validation_program_20261026/full_intervention/model_source/consistent_core/models.py"
+    },
+    {
+      "source_path": "CCPV_reviewer_validation_program_20261026/full_intervention/model_source/consistent_core/gap_model.py",
+      "expected_sha256": "2c11901d247071f434278b1c843b6c1f9740b8a6fee376f13b8bb8afc11c03bd",
+      "bytes": 10597,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_reviewer_validation_program_20261026/full_intervention/model_source/consistent_core/gap_model.py"
+    },
+    {
+      "source_path": "CCPV_reviewer_validation_program_20261026/full_intervention/source_operator/reference_operator.py",
+      "expected_sha256": "850c8993584c2ec6693209c53610a536381b90f6b815ab8ec20e50572f4afbc3",
+      "bytes": 10977,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_reviewer_validation_program_20261026/full_intervention/source_operator/reference_operator.py"
+    },
+    {
+      "source_path": "CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed0/world_last.pt",
+      "expected_sha256": "cab539f3b7eab476d06a0174ad40df3ec9fde4485084062d0f49e5e7d29a0fc3",
+      "bytes": 230669,
+      "status": "ORIGINAL_REFERENCE_IN_EXISTING_LOCAL_ASSET_BUNDLE",
+      "local_asset_route": {
+        "archive": "models/CCPV_frozen_models_local_review_20261119_v3.zip",
+        "member": "payload/blobs/cab539f3b7eab476d06a0174ad40df3ec9fde4485084062d0f49e5e7d29a0fc3.pt",
+        "sha256": "cab539f3b7eab476d06a0174ad40df3ec9fde4485084062d0f49e5e7d29a0fc3",
+        "bytes": 230669
+      },
+      "clean_inference_reference": {
+        "candidate_manifest": "CCPV_release_candidate_20261119/inference_weights/inference_manifest.json",
+        "original_sha256": "cab539f3b7eab476d06a0174ad40df3ec9fde4485084062d0f49e5e7d29a0fc3",
+        "clean_payload": "payload/f6cc3f46234c7a8a9053fd366cfa2638229abc751cbcdd687e7db83162e9cac2.npz",
+        "clean_sha256": "f6cc3f46234c7a8a9053fd366cfa2638229abc751cbcdd687e7db83162e9cac2",
+        "seed": 0,
+        "old_byte_guard_compatible": false
+      }
+    },
+    {
+      "source_path": "CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed0/result.json",
+      "expected_sha256": "9fe6d2cd6826a32e2b9c63885d2576f5d32a10aadc339d2b5923ec7a355b44d7",
+      "bytes": 524,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed0/result.json"
+    },
+    {
+      "source_path": "CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed1/world_last.pt",
+      "expected_sha256": "6bc1007b8b06f6723cc456fe233246bb91d3b2eca532d71703a9a227e87b4487",
+      "bytes": 230733,
+      "status": "ORIGINAL_REFERENCE_IN_EXISTING_LOCAL_ASSET_BUNDLE",
+      "local_asset_route": {
+        "archive": "models/CCPV_frozen_models_local_review_20261119_v3.zip",
+        "member": "payload/blobs/6bc1007b8b06f6723cc456fe233246bb91d3b2eca532d71703a9a227e87b4487.pt",
+        "sha256": "6bc1007b8b06f6723cc456fe233246bb91d3b2eca532d71703a9a227e87b4487",
+        "bytes": 230733
+      },
+      "clean_inference_reference": {
+        "candidate_manifest": "CCPV_release_candidate_20261119/inference_weights/inference_manifest.json",
+        "original_sha256": "6bc1007b8b06f6723cc456fe233246bb91d3b2eca532d71703a9a227e87b4487",
+        "clean_payload": "payload/b7dcfc3437be33d41a4342643683bd954447ab578f6eef691764fd7947517797.npz",
+        "clean_sha256": "b7dcfc3437be33d41a4342643683bd954447ab578f6eef691764fd7947517797",
+        "seed": 1,
+        "old_byte_guard_compatible": false
+      }
+    },
+    {
+      "source_path": "CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed1/result.json",
+      "expected_sha256": "b22c6fdc4d7eeb2dbb5f045315e314a7e5588ce0be155e4f5e1019b346a1999c",
+      "bytes": 524,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed1/result.json"
+    },
+    {
+      "source_path": "CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed2/world_last.pt",
+      "expected_sha256": "143ca82f2008b6248df79d01c89ebcdac847f8e533c3f39a4aab24fc7e2878d4",
+      "bytes": 230733,
+      "status": "ORIGINAL_REFERENCE_IN_EXISTING_LOCAL_ASSET_BUNDLE",
+      "local_asset_route": {
+        "archive": "models/CCPV_frozen_models_local_review_20261119_v3.zip",
+        "member": "payload/blobs/143ca82f2008b6248df79d01c89ebcdac847f8e533c3f39a4aab24fc7e2878d4.pt",
+        "sha256": "143ca82f2008b6248df79d01c89ebcdac847f8e533c3f39a4aab24fc7e2878d4",
+        "bytes": 230733
+      },
+      "clean_inference_reference": {
+        "candidate_manifest": "CCPV_release_candidate_20261119/inference_weights/inference_manifest.json",
+        "original_sha256": "143ca82f2008b6248df79d01c89ebcdac847f8e533c3f39a4aab24fc7e2878d4",
+        "clean_payload": "payload/1ca025af1045fc3074345392229b2c729b3b09b84f23ed1cac19f0c836350e6d.npz",
+        "clean_sha256": "1ca025af1045fc3074345392229b2c729b3b09b84f23ed1cac19f0c836350e6d",
+        "seed": 2,
+        "old_byte_guard_compatible": false
+      }
+    },
+    {
+      "source_path": "CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed2/result.json",
+      "expected_sha256": "0f01db0e0e50d381e4a6f1e9456daa9b6af202e7c65e6eb6f74ccc0998015382",
+      "bytes": 524,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed2/result.json"
+    },
+    {
+      "source_path": "CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed3/world_last.pt",
+      "expected_sha256": "cd3cd8c678875956a90385a1f52716c18f17604b0f7b8e6a8043106968fb39a0",
+      "bytes": 230733,
+      "status": "ORIGINAL_REFERENCE_IN_EXISTING_LOCAL_ASSET_BUNDLE",
+      "local_asset_route": {
+        "archive": "models/CCPV_frozen_models_local_review_20261119_v3.zip",
+        "member": "payload/blobs/cd3cd8c678875956a90385a1f52716c18f17604b0f7b8e6a8043106968fb39a0.pt",
+        "sha256": "cd3cd8c678875956a90385a1f52716c18f17604b0f7b8e6a8043106968fb39a0",
+        "bytes": 230733
+      },
+      "clean_inference_reference": {
+        "candidate_manifest": "CCPV_release_candidate_20261119/inference_weights/inference_manifest.json",
+        "original_sha256": "cd3cd8c678875956a90385a1f52716c18f17604b0f7b8e6a8043106968fb39a0",
+        "clean_payload": "payload/5f791c0b6ef612fdd2f0c3ffaab547f6494c3b1b1a3bfb5b1ca782e7cafc1642.npz",
+        "clean_sha256": "5f791c0b6ef612fdd2f0c3ffaab547f6494c3b1b1a3bfb5b1ca782e7cafc1642",
+        "seed": 3,
+        "old_byte_guard_compatible": false
+      }
+    },
+    {
+      "source_path": "CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed3/result.json",
+      "expected_sha256": "949834d03bd366342e3733bd37fdb2bb988f5ef18b754d238a5e0cc881f46aea",
+      "bytes": 524,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed3/result.json"
+    },
+    {
+      "source_path": "CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed4/world_last.pt",
+      "expected_sha256": "763e408e14aa8cd6f8295dc5ca9da2e58627609ce3c54fe8fb427954cd698c64",
+      "bytes": 230733,
+      "status": "ORIGINAL_REFERENCE_IN_EXISTING_LOCAL_ASSET_BUNDLE",
+      "local_asset_route": {
+        "archive": "models/CCPV_frozen_models_local_review_20261119_v3.zip",
+        "member": "payload/blobs/763e408e14aa8cd6f8295dc5ca9da2e58627609ce3c54fe8fb427954cd698c64.pt",
+        "sha256": "763e408e14aa8cd6f8295dc5ca9da2e58627609ce3c54fe8fb427954cd698c64",
+        "bytes": 230733
+      },
+      "clean_inference_reference": {
+        "candidate_manifest": "CCPV_release_candidate_20261119/inference_weights/inference_manifest.json",
+        "original_sha256": "763e408e14aa8cd6f8295dc5ca9da2e58627609ce3c54fe8fb427954cd698c64",
+        "clean_payload": "payload/b3d6ce1f0a013644b2bb3f50acbd10ca992f4a998967ce1ee89c6b93c40e93ac.npz",
+        "clean_sha256": "b3d6ce1f0a013644b2bb3f50acbd10ca992f4a998967ce1ee89c6b93c40e93ac",
+        "seed": 4,
+        "old_byte_guard_compatible": false
+      }
+    },
+    {
+      "source_path": "CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed4/result.json",
+      "expected_sha256": "d4be3aa26c74a2131d3c7e9c3ab48b633786ef349e2e9922ac713744a0d3672a",
+      "bytes": 524,
+      "status": "BYTE_EXACT_IN_THIS_PACKAGE",
+      "package_member": "workspace/CCPV_consistent_dynamics_outcomes_pilot_20261024/forecasting/runs/D_coupled_ar_seed4/result.json"
+    },
+    {
+      "source_path": "CCPV_data_expansion_20261022/data/skillcorner_10hz.npz",
+      "expected_sha256": "0e889418572d8c636171b101473b9428000596dc722f4e7ea053d056cab29091",
+      "bytes": 116411793,
+      "status": "NOT_IN_THIS_CODE_PACKAGE"
+    }
+  ],
+  "explicit_remaining": [
+    "Raw fixed SkillCorner tracking/roster files are provider-download references, not included here.",
+    "Original full 20-match source cache and new 4992 prefix NPZ/metadata are not duplicated; reconstruct or separately supply exact hashes.",
+    "Original implementation lock includes old assets.json with private absolute paths; only a separately identified normalized metadata candidate is provided.",
+    "Clean numerical NPZ models cannot satisfy torch.load(epoch,state_dict) or original checkpoint SHA guards. A separately versioned explicit loader/manifest bridge with before/after six-path synthetic equivalence is still required.",
+    "Original implementation lock paths use Windows backslashes. Cross-platform replay needs an explicit new path-binding manifest, never a silent replacement of historical lock SHA.",
+    "Saved full response blocks and truth NPZ are not included in a code-only package; existing diagnostic_statistics supplies statistics, not those state arrays.",
+    "Factual scoring reads prepared_prefix_path from the truth receipt. Relocation requires freshly verified recovery or an explicitly mapped, SHA-bound new receipt and provenance; do not edit original receipt silently."
+  ]
+}

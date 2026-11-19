@@ -1,0 +1,55 @@
+{
+  "status": "LOCKED_BEFORE_ANY_REAL_RESPONSE_OR_FUTURE_TRUTH_READ",
+  "created_utc": "2026-11-19T11:20:20.520Z",
+  "files": [
+    {
+      "path": "analyze_responses.py",
+      "bytes": 14188,
+      "sha256": "a857a36efdeed7b5037b3a0414b57aaa045910409b1faa421d031e1979f3a2d9"
+    },
+    {
+      "path": "recover_truth.py",
+      "bytes": 6544,
+      "sha256": "e52da9fbbd9f0bebb536425f565797a97e202b08f9c4158863e5ceaca32c7df4"
+    },
+    {
+      "path": "score_factual.py",
+      "bytes": 9133,
+      "sha256": "c10e9b9d323b65761d20b10f9f24028f981aee2486434c018f09a6ee2f69e4b6"
+    },
+    {
+      "path": "truth_source_spec.json",
+      "bytes": 3247,
+      "sha256": "f52b0f4d91894263190880b354ed61558a3428ba6486fb5761debe5644002091"
+    },
+    {
+      "path": "analysis_plan.json",
+      "bytes": 1233,
+      "sha256": "960220d4d5cc93d946cb1318f01683758921d31bd49549cd599b29abdaa956a7"
+    },
+    {
+      "path": "分析口径与运行顺序.txt",
+      "bytes": 4995,
+      "sha256": "2be78cf70fb2304a64a69fbef0601c9c2082655c447e96ece43c4dfad71a5a24"
+    },
+    {
+      "path": "run_commands.json",
+      "bytes": 2706,
+      "sha256": "f6cabfb3b4d35cdbb24e6817bf57fac7679add500d4ee54179fc4694b3c4b649"
+    },
+    {
+      "path": "implementation_completion.json",
+      "bytes": 6473,
+      "sha256": "3f254194a1b3843a467626a09d56526d4e50f4b5fc6ddb25c82e81e7eeff6bb1"
+    }
+  ],
+  "worker": {
+    "pid": 46384,
+    "parent_pid": 20032,
+    "creation_utc": "2026-11-19T11:10:24.6621280Z"
+  },
+  "permission": "Parent authorized automatic saved analysis, four-source future truth recovery, factual scoring only after six full cells + all block hashes + normal worker exit.",
+  "new_training": 0,
+  "real_response_reads_so_far": 0,
+  "real_future_raw_reads_so_far": 0
+}

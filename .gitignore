@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.npz
+*.pt
+*.pth
+*.zip
+local_runs/
+downloads/

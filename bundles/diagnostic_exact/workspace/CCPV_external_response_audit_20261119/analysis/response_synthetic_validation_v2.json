@@ -1,0 +1,17 @@
+{
+  "status": "PASS_SYNTHETIC_RESPONSE_STATISTICS",
+  "checks": [
+    "contrast_specific_partial_support",
+    "technical_NA_not_zero",
+    "vector_sham_identity_not_norm_additivity",
+    "unequal_fixture_counts_equal_weight_macro",
+    "five_seed_ddof1_SD",
+    "strict_missing_fixture_seed_macro",
+    "zero_distinguished_from_NA"
+  ],
+  "real_prediction_reads": 0,
+  "raw_future_reads": 0,
+  "model_forwards": 0,
+  "numpy_version": "1.26.4",
+  "code_sha256": "a857a36efdeed7b5037b3a0414b57aaa045910409b1faa421d031e1979f3a2d9"
+}

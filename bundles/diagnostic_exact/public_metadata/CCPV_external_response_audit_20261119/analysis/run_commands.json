@@ -1,0 +1,72 @@
+{
+  "status": "COMMAND_TEMPLATES_WAIT_FOR_ROOT_FROZEN_COMPLETION_SHA",
+  "executable": "${PYTHON_EXECUTABLE}",
+  "cwd": "${WORKSPACE_ROOT}",
+  "windowsHide": true,
+  "replacements": {
+    "PREDICTION_COMPLETION_SHA256_FROM_ROOT": "Root supplies only after all six cells are complete and frozen.",
+    "TRUTH_COMPLETION_SHA256_AFTER_RECOVERY": "SHA256 of analysis/truth_run01/completion.json after successful stage2."
+  },
+  "stages": [
+    {
+      "stage": 1,
+      "name": "saved_response_analysis",
+      "argv": [
+        "-B",
+        "-X",
+        "utf8",
+        "CCPV_external_response_audit_20261119/analysis/analyze_responses.py",
+        "--run-dir",
+        "CCPV_external_response_audit_20261119/response_run01",
+        "--prediction-freeze-sha256",
+        "PREDICTION_COMPLETION_SHA256_FROM_ROOT",
+        "--out",
+        "CCPV_external_response_audit_20261119/analysis/response_summary_run01"
+      ]
+    },
+    {
+      "stage": 2,
+      "name": "detected_only_truth_recovery",
+      "argv": [
+        "-B",
+        "-X",
+        "utf8",
+        "CCPV_external_response_audit_20261119/analysis/recover_truth.py",
+        "--base",
+        "${WORKSPACE_ROOT}",
+        "--run-dir",
+        "CCPV_external_response_audit_20261119/response_run01",
+        "--prediction-freeze-sha256",
+        "PREDICTION_COMPLETION_SHA256_FROM_ROOT",
+        "--source-spec",
+        "CCPV_external_response_audit_20261119/analysis/truth_source_spec.json",
+        "--source-spec-sha256",
+        "f52b0f4d91894263190880b354ed61558a3428ba6486fb5761debe5644002091",
+        "--out",
+        "CCPV_external_response_audit_20261119/analysis/truth_run01"
+      ]
+    },
+    {
+      "stage": 3,
+      "name": "natural_factual_scoring",
+      "argv": [
+        "-B",
+        "-X",
+        "utf8",
+        "CCPV_external_response_audit_20261119/analysis/score_factual.py",
+        "--run-dir",
+        "CCPV_external_response_audit_20261119/response_run01",
+        "--prediction-freeze-sha256",
+        "PREDICTION_COMPLETION_SHA256_FROM_ROOT",
+        "--truth-dir",
+        "CCPV_external_response_audit_20261119/analysis/truth_run01",
+        "--truth-completion-sha256",
+        "TRUTH_COMPLETION_SHA256_AFTER_RECOVERY",
+        "--out",
+        "CCPV_external_response_audit_20261119/analysis/factual_summary_run01"
+      ]
+    }
+  ],
+  "outputs_must_not_preexist": true,
+  "no_real_stage_executed": true
+}

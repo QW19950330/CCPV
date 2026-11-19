@@ -1,0 +1,9 @@
+{
+  "status": "PASS_CV_SHAM_MISSING_SUPPORT_AND_RANDOM_D",
+  "code_sha256": "7cd4ddc7a6b8a3bb6ff992a46e4cc6bb629f394f70b528b30a3300b4eac1a6af",
+  "protocol_sha256": "7c6eead0eaafa99466eaa348e8261fa3ab5675941afeaac8d128127e514598f0",
+  "synthetic_rows": 3,
+  "saved_checkpoint_loads": 0,
+  "real_prefix_reads": 0,
+  "training_updates": 0
+}

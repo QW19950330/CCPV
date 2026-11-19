@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Cite this asset version and its assigned archive DOI when available. Preserve source-specific attribution."
+type: dataset
+title: "CCPV revision: frozen code, derived inputs, and evaluation artifacts"
+version: "v2026.11.19"
+authors:
+  - family-names: Chen
+    given-names: Fang
+    affiliation: "Xi’an Physical Education University, Xi’an 710068, China"
+  - family-names: Lin
+    given-names: Jiqian
+    affiliation: "Xi’an Physical Education University, Xi’an 710068, China"
+repository-code: "https://github.com/QW19950330/CCPV"
+# Licences are scoped in license_scope.json; a blanket licence is intentionally omitted.
+# DOI and date-released will be added only after an actual public archive record is verified.

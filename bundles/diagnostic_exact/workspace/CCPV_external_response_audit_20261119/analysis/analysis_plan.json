@@ -1,0 +1,32 @@
+{
+  "status": "IMPLEMENTED_AND_SYNTHETICALLY_VALIDATED_REAL_RESULTS_NOT_READ",
+  "created_utc": "2026-11-19T11:18:49.656Z",
+  "required_parent_signal": "Prediction complete freeze and completion SHA before any response or future raw read",
+  "cohort": {
+    "matches": 4,
+    "planned_windows": 4992,
+    "D_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "CV_once": true,
+    "all_six_paths": true
+  },
+  "response_denominator": "Contrast-specific paired support; first-natural not conditioned on persistent completion",
+  "factual_denominator": "Prelocked prefix eligibility and history_seen; no model-selected loss of support. Truth detected-only mask after prediction freeze.",
+  "aggregation": "Window then equal-four-match mean; five-seed sample SD ddof1. Strict completeness with NA, no implicit renormalization.",
+  "decay": "Mean of within-window d2-d0.2 on their paired support, then equal-match/five-seed",
+  "no_performance_gate": true,
+  "real_response_reads": 0,
+  "real_future_raw_reads": 0,
+  "new_training": 0,
+  "new_model_forwards": 0,
+  "source_spec": "truth_source_spec.json",
+  "synthetic_receipts": [
+    "response_synthetic_validation_v2.json",
+    "truth_synthetic_validation_v3.json"
+  ]
+}

@@ -1,0 +1,7 @@
+LICENCE PROPOSAL ONLY — NOT AN EFFECTIVE GRANT
+
+Subject to confirmation by the actual rights holders, the proposed licence is MIT for author-owned code, and CC BY 4.0 for author-owned inference-only weights, documentation and eligible statistical outputs. No copyright holder or effective grant is assigned by this candidate. No third-party materials receive a new licence from these files.
+
+The original IDSSE and SkillCorner notices are preserved byte-for-byte in notices/. Existing SoccerTrack evidence applies only to its fixed released GSR/BAS scope, not the unidentified historical XML or mixed derivatives. StatsBomb and Metrica remain provider-route plus nonreconstructive analyses in this candidate scope; no raw records or StatsBomb weights are added. Legacy SoccerNet identity remains unresolved. Review correspondence remains local-only.
+
+Public repository ownership, actual publication authorization and real versioned URLs are still pending. Existing author funding/conflict facts need not be re-requested absent a change. Final submission approval concerns the actual final documents separately.

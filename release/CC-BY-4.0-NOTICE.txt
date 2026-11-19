@@ -1,0 +1,10 @@
+CC BY 4.0 notice — scoped author-owned materials
+
+Copyright (c) 2026 Fang Chen and Jiqian Lin.
+The author-owned weights, original explanatory documents, schemas and eligible statistical outputs identified in license_scope.json are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+Licence: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+Suggested attribution: Fang Chen and Jiqian Lin (2026), CCPV revision: frozen code, derived inputs, and evaluation artifacts, version v2026.11.19. https://github.com/QW19950330/CCPV . Cite the assigned archive DOI when one is available, preserve the licence link and indicate modifications. No provider endorsement is implied.
+
+This notice does not relicense third-party data, software or source notices. In particular, SkillCorner provider materials retain their pinned MIT notice; IDSSE retains its own CC BY 4.0 attribution; the StatsBomb-derived analysis subtree retains its source agreement and is excluded from this CC BY grant. See license_scope.json and THIRD_PARTY_NOTICES.md for all exceptions. Author original software is licensed separately under MIT.

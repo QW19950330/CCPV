@@ -1,0 +1,70 @@
+{
+  "study_id": "CCPV-FROZEN-SKILLCORNER-TEST-RESPONSE-20261119-v1",
+  "status": "PROTOCOL_BEFORE_TEST_PREFIX_EXTRACTION_OR_RESPONSE_METRICS",
+  "question": "Reviewer R2.2: how far does a first-step input velocity reset depart from the natural trajectory, and does this response persist across the fixed test cohort?",
+  "authorization": "Existing user authorization for reviewer-focused frozen five-seed small studies and autonomous execution; no new training or formal50 run.",
+  "source_route_decision": "Prefer the pre-existing same-format SkillCorner test cohort to avoid introducing GSR resampling and team/ball assumptions. This route decision uses split/schema evidence only, not response or test performance. Nine SoccerTrack fixtures remain a separate exposed-domain input-support audit.",
+  "cohort": {
+    "source_archive": "CCPV_data_expansion_20261022/data/skillcorner_10hz.npz",
+    "source_archive_sha256": "0e889418572d8c636171b101473b9428000596dc722f4e7ea053d056cab29091",
+    "split": "CCPV_data_expansion_20261022/data/skillcorner_split.json",
+    "split_sha256": "b05dee0ac36b1aa7e6c11e3f085a640d06d11fe78facc3444b980f2cff8be945",
+    "matches": ["skillcorner:1927964", "skillcorner:2006363", "skillcorner:2015213", "skillcorner:2017461"],
+    "expected_windows_per_match": [1308, 1261, 1312, 1111],
+    "expected_total_windows": 4992,
+    "selection": "All source test_indices, in original source order, without replacement or outcome/response selection. Actual cache uses non-overlapping 30-frame windows, despite earlier split metadata specifying stride10.",
+    "scope": "Existing retrospective provider-detected cache cohort; its original admission uses any valid history/future support and the 30-frame identity union. Not a newly blind prospective prefix-sampled population. Positive exposure evidence: old reserved_test_confirmation_v1 completed scores on256 windows/20 old model cells on2026-10-23; its status records test_metrics_viewed=true. This is a subsequent frozen response diagnostic on source-test held-out matches, not a fresh blind test."
+  },
+  "models": {
+    "learned_arm": "D_coupled_ar",
+    "seeds": [0, 1, 2, 3, 4],
+    "checkpoint": "All five fixed epoch4 / 96-update final checkpoints already frozen in full_intervention/assets.json, whose SHA is bound at implementation freeze. No best checkpoint or seed selection.",
+    "analytic": "One deterministic CV on exactly the same prefixes and commands; not replicated as five independent seeds.",
+    "training_updates": 0,
+    "numerics": "Original CPU FP32 deterministic MATH SDPA, one torch thread, TF32 off; original model/api/operator mathematics unchanged."
+  },
+  "input": {
+    "shape": [10, 23, 4],
+    "fps": 10,
+    "horizon_steps": 20,
+    "coordinate_scope": "Provider physical coordinates scaled to nominal105x68 metre-equivalent coordinates, not newly certified physical measurement accuracy.",
+    "prefix": "Only original first10 states/valid flags enter model and actor selection. Extract separately from future target arrays; retain original missingness.",
+    "identity": "Source roster home/away verification and original explicit semantic ball_data key. No invented player IDs, attack roles, possession, or ball observations. Inactive padding stays masked.",
+    "targets": "Original rule: first two lexical source-ID-sorted home/team0 players with t0 full-state validity. Actor A is the diagnostic target; fewer than two remains UNSUPPORTED. No future-support actor selection.",
+    "commands": "Original absolute command v0+delta; delta is 0.1*(-vy,vx)/norm(v0) when speed>=0.1, otherwise (0.1,0). Compute once from the natural prefix for all paths and seeds.",
+    "source_implementation_check": "Before forward, audit the original velocity-slot mapping when home roster count<11. If valid input is affected, retain affected cohort rows as technical unsupported pending a separately versioned correction; never silently repair the old cache or model."
+  },
+  "paths": [
+    {"name": "natural", "semantics": "bypass", "coalition": []},
+    {"name": "none_every_step", "semantics": "none", "coalition": []},
+    {"name": "first_A", "semantics": "first", "coalition": [0]},
+    {"name": "persistent_A", "semantics": "persistent", "coalition": [0]},
+    {"name": "maintained_v0_A", "semantics": "persistent", "coalition": [0], "command": "original v0"},
+    {"name": "first_provenance_only_A", "semantics": "bypass with explicit first provenance-only control", "coalition": [], "control": "Keep history values and usable mask byte-identical; clear only actor A terminal observation flag and recompute observation age with the original function before rollout. Not a no-op and not a measured intervention."}
+  ],
+  "limits": {
+    "vmax": 10.5,
+    "amax": 6.026811599731445,
+    "turnmax": 3.837622240781784,
+    "interpretation": "Original engineering request bounds, not validated physiological limits. Rejected requests stop that branch; retain rejection reason/step and NA, do not clip or substitute outputs."
+  },
+  "endpoints": {
+    "primary": "Actor A displacement vector and distance between first_A and natural at all20 steps; predeclared emphasis0.2,1,2s and d(2)-d(0.2). Per-window distributions and per-match summaries; no near-zero denominator retention ratio.",
+    "mechanism_controls": "Report first_A minus first_provenance_only_A and provenance-only minus natural. Vector differences decompose; distance norms do not. Persistent_A versus natural and maintained_v0_A is separate from first-step semantics.",
+    "direction": "Signed projection onto the fixed delta direction, to expose sign reversal hidden by distance.",
+    "joint_response": "Other historically usable players' RMS displacement relative to the same model natural path; exclude ball from player summaries.",
+    "secondary_factual_forecast": "Natural player ADE over20 future steps and FDE at1/2s, paired D/CV on common historical support and independently recovered provider-detected position truth. Truth loaded only by scoring stage after prediction outputs are frozen. If raw truth reconstruction cannot be verified, do not substitute zeroed invalid state positions.",
+    "technical_checks": "NONE bitwise equal natural; first_provenance_only keeps values unchanged; CV direct-versus-iterated tolerance1e-4; CV response equals t*delta within1e-4 and first/persistent agree on completed support; original immutable/locality/no-support-creation checks; D native versus adapter baseline tolerance1e-6."
+  },
+  "denominators": "Retain all4992 planned rows and all4 matches. Separately report source identity/history eligibility, actor eligibility, request acceptance, each path completion/rejection, truth support and common paired support. Each contrast uses its own pairwise support: first-versus-natural never requires persistent success. Cross-model common support is used only for D-versus-CV paired comparisons. A successful sham never rescues a rejected first reset. Missing/failed rows are not zero. No dropping unhelpful matches, seeds or paths.",
+  "aggregation": "Summarize windows within each match, then four matches equally within seed; five-seed mean and sample SD describes initialization only. Also retain pooled row-level summaries and quantiles clearly labelled. No assumption that windows or seeds are independent matches; no performance-based pass threshold.",
+  "runtime": {
+    "batch_size": 32,
+    "one_worker": true,
+    "resume": "Only whole saved model/seed/batch blocks after verified hashes; never restart live workers or mix changed math.",
+    "soft_seconds_per_cell": 3600,
+    "outputs": "New study directory only; retain per-row/path metrics and compact states/support needed to audit them, code/source pins and execution receipts. Preserve all original source, code, checkpoints and results."
+  },
+  "stopping": "Freeze protocol and implementation/source hashes and pass synthetic/invariant checks before real forward. Stop on technical hash/no-op/locality/nonfinite failures, retain failure receipt and fix execution only with documented provenance. Complete the fixed matrix and report negative/zero/decaying responses without tuning. No new50 training, events, value-head fit, Shapley game, or claim of true causal/Goal benefit.",
+  "scope_not_claimed": ["real counterfactual player behavior", "better tactical actions", "true goal probability improvement", "validated full intervention-value chain", "recovery of original420-match corpus"]
+}

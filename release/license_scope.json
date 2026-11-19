@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "release": "v2026.11.19",
+  "author_rightsholders": [
+    "Fang Chen",
+    "Jiqian Lin"
+  ],
+  "author_grants": {
+    "original_software": {
+      "spdx": "MIT",
+      "text_file": "LICENSE",
+      "official_url": "https://opensource.org/license/mit"
+    },
+    "author_owned_weights_documentation_and_eligible_statistics": {
+      "spdx": "CC-BY-4.0",
+      "notice_file": "CC-BY-4.0-NOTICE.txt",
+      "official_url": "https://creativecommons.org/licenses/by/4.0/",
+      "legal_code_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en"
+    }
+  },
+  "precedence": [
+    "Specific third-party copyright/licence notices control third-party material.",
+    "The explicit excluded subtrees below receive no author MIT/CC-BY grant.",
+    "Author original code and eligible author-owned non-code materials use their separate grants above.",
+    "Statements marked proposal/pending in immutable historical archives are superseded only as to these author-owned portions by this release-level grant; archive bytes and scientific scope remain unchanged."
+  ],
+  "package_scopes": [
+    {
+      "filename": "CCPV_idsse_core_derived_inputs_20261119_v1_public_composed_v1.zip",
+      "scope_id": "IDSSE_DERIVED",
+      "scope": "IDSSE-derived data retain CC BY 4.0 and provider attribution; eligible original documentation/statistics are CC BY 4.0; original author code, where present, is MIT."
+    },
+    {
+      "filename": "CCPV_idsse_terminal_derived_inputs_20261119_v1_public_composed_v1.zip",
+      "scope_id": "IDSSE_DERIVED",
+      "scope": "IDSSE-derived data retain CC BY 4.0 and provider attribution; eligible original documentation/statistics are CC BY 4.0; original author code, where present, is MIT."
+    },
+    {
+      "filename": "CCPV_idsse_readout_derived_inputs_20261119_v1_public_composed_v1.zip",
+      "scope_id": "IDSSE_DERIVED",
+      "scope": "IDSSE-derived data retain CC BY 4.0 and provider attribution; eligible original documentation/statistics are CC BY 4.0; original author code, where present, is MIT."
+    },
+    {
+      "filename": "CCPV_skillcorner_world_derived_inputs_20261119_v1_public_composed_v1.zip",
+      "scope_id": "SKILLCORNER_DERIVED",
+      "scope": "Provider materials and derived-source portions retain the pinned SkillCorner MIT notice and attribution; eligible original author documentation/statistics are CC BY 4.0, and original author code is MIT."
+    },
+    {
+      "filename": "CCPV_idsse_guard_derived_inputs_20261119_v1_public_composed_v1.zip",
+      "scope_id": "IDSSE_DERIVED",
+      "scope": "IDSSE-derived data retain CC BY 4.0 and provider attribution; eligible original documentation/statistics are CC BY 4.0; original author code, where present, is MIT."
+    },
+    {
+      "filename": "CCPV_skillcorner_inputs_public_candidate_20261119_v1.zip",
+      "scope_id": "SKILLCORNER_DERIVED",
+      "scope": "Provider materials and derived-source portions retain the pinned SkillCorner MIT notice and attribution; eligible original author documentation/statistics are CC BY 4.0, and original author code is MIT."
+    },
+    {
+      "filename": "CCPV_support_materials_local_candidate_20261119_v1_public_composed_v1.zip",
+      "scope_id": "MIXED_SUPPORT",
+      "scope": "Original author code is MIT; eligible original documentation/statistics are CC BY 4.0. Embedded source notices and provider-derived portions retain their own terms. Historical document snapshots are supporting records, not a current manuscript publication."
+    },
+    {
+      "filename": "CCPV_underlying_results_public_candidate_20261119_v2.zip",
+      "scope_id": "MIXED_RESULTS",
+      "scope": "Original author analysis code is MIT and eligible author statistics/explanatory material are CC BY 4.0, subject to the explicit Metrica, StatsBomb, legacy-GSR and source-notice exclusions in license_scope.json."
+    },
+    {
+      "filename": "CCPV_exact_replay_npz_compatibility_candidate_20261119_v1.zip",
+      "scope_id": "AUTHOR_REPLAY",
+      "scope": "CC BY 4.0 for author-owned model/training-replay artifacts; retain any source-data terms and attribution. Full training/audit state is distinct from the inference-only package; this licence is not an assertion that exact resumed training has been demonstrated."
+    },
+    {
+      "filename": "CCPV_table6_saved_inputs_public_candidate_20261119_v1.zip",
+      "scope_id": "MIXED_SAVED_INPUTS",
+      "scope": "CC BY 4.0 for eligible author-generated states, scores and metadata; MIT for original code; SkillCorner/IDSSE-derived source portions retain their original notices."
+    },
+    {
+      "filename": "CCPV_legacy_controls_local_review_20261119_v2.zip",
+      "scope_id": "AUTHOR_CONTROLS",
+      "scope": "CC BY 4.0 for eligible author-generated control/history records, MIT for original code. No grant over unverified legacy source data; no raw legacy records are added."
+    },
+    {
+      "filename": "CCPV_public_runtime_bindings_candidate_20261119_v1.zip",
+      "scope_id": "AUTHOR_RUNTIME",
+      "scope": "MIT for original author software; CC BY 4.0 for eligible original schema/documentation/model compatibility material; copied provider notices retain their terms. Explicit new hashes bind derived metadata and do not satisfy original-byte guards by assertion."
+    },
+    {
+      "filename": "CCPV_portable_source_release_candidate_20261119_v1.zip",
+      "scope_id": "AUTHOR_CODE",
+      "scope": "MIT for original author code; CC BY 4.0 for eligible original explanatory material. Existing third-party software/data notices remain controlling for their own material."
+    },
+    {
+      "filename": "CCPV_clean_inference_weights_local_candidate_20261119_v1.zip",
+      "scope_id": "AUTHOR_INFERENCE",
+      "scope": "CC BY 4.0 for author-owned clean inference weights; MIT for original inference code. Provider data licences remain separate. No StatsBomb-trained weights are included."
+    },
+    {
+      "filename": "CCPV_diagnostic_code_local_candidate_20261119_v1.zip",
+      "scope_id": "AUTHOR_CODE",
+      "scope": "MIT for original author code; CC BY 4.0 for eligible original explanatory material. Existing third-party software/data notices remain controlling for their own material."
+    },
+    {
+      "filename": "CCPV_diagnostic_clean_adapter_local_candidate_20261119_v2.zip",
+      "scope_id": "AUTHOR_CODE",
+      "scope": "MIT for original author code; CC BY 4.0 for eligible original explanatory material. Existing third-party software/data notices remain controlling for their own material."
+    },
+    {
+      "filename": "CCPV_frozen_four_match_statistics_local_candidate_20261119_v1.zip",
+      "scope_id": "AUTHOR_STATISTICS",
+      "scope": "CC BY 4.0 for eligible original frozen statistical outputs and documentation; preserve SkillCorner source attribution. This is a statistical-output package, not full raw data, response arrays or recovered truth."
+    }
+  ],
+  "explicit_exclusions": [
+    {
+      "filename": "CCPV_underlying_results_public_candidate_20261119_v2.zip",
+      "paths": [
+        "payload/T3_metrica/",
+        "payload/body_metrica_risk/"
+      ],
+      "source": "Metrica",
+      "rule": "Nonreconstructive analyses only; retain provider route/attribution, no blanket MIT/CC-BY grant over provider-constrained material."
+    },
+    {
+      "filename": "CCPV_underlying_results_public_candidate_20261119_v2.zip",
+      "paths": [
+        "payload/body_goal13/"
+      ],
+      "source": "StatsBomb",
+      "rule": "Source agreement applies, including noncommercial analysis limitation and brand accreditation. No author MIT/CC-BY grant to this subtree."
+    },
+    {
+      "filename": "CCPV_underlying_results_public_candidate_20261119_v2.zip",
+      "paths": [
+        "payload/body_legacy50/",
+        "payload/S7/"
+      ],
+      "source": "LegacyGSR",
+      "rule": "Historical-identity or mixed-coordinate analyses; no grant over any unverified source material. Eligible new author explanations/methods remain separately licensed. Do not infer raw-record redistribution rights."
+    },
+    {
+      "filename": "CCPV_underlying_results_public_candidate_20261119_v2.zip",
+      "paths": [
+        "payload/source_notices/"
+      ],
+      "rule": "Third-party notices and copied source documentation retain original terms, not author copyright."
+    },
+    {
+      "filename": "*",
+      "paths": [
+        "Any copied third-party LICENSE, LICENSE-DATA, README or source notice"
+      ],
+      "rule": "Preserve the named rights holder and original terms. The author grant does not relicense these materials."
+    }
+  ],
+  "sources": {
+    "IDSSE": {
+      "name": "Bassek, Rein, Weber and Memmert: An integrated dataset of spatiotemporal and event data in elite soccer",
+      "attribution": "Bassek M, Rein R, Weber H, Memmert D. Data owner: Deutsche Fussball Liga; collection: Sportec Solutions.",
+      "version": "Figshare v1, 2025; analysis mirror PySport/idsse-data revision a715a38dfbaf5f58e431727c2b78d174101a703c",
+      "license": "CC-BY-4.0",
+      "official_source_urls": [
+        "https://doi.org/10.6084/m9.figshare.28196177.v1",
+        "https://github.com/PySport/idsse-data/tree/a715a38dfbaf5f58e431727c2b78d174101a703c"
+      ],
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Prepared fixed histories, masks, native coordinates, event clocks, recorded-Shot labels, model-generated features and summaries; preserve source attribution and describe further changes."
+    },
+    "SkillCorner": {
+      "name": "SkillCorner Open Data",
+      "attribution": "SkillCorner, in collaboration with PySport. Copyright (c) 2020 SkillCorner.",
+      "version": "4340d274572876239c154c90bc507a9b3250a656",
+      "license": "MIT (pinned repository materials)",
+      "official_source_urls": [
+        "https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656"
+      ],
+      "license_url": "https://github.com/SkillCorner/opendata/blob/4340d274572876239c154c90bc507a9b3250a656/LICENSE",
+      "changes": "Selected fixed cohorts; prepared prefix states, masks, source identities, normalization, commands and statistical diagnostics. No grant for unlisted video or commercial products."
+    },
+    "SoccerTrack": {
+      "name": "SoccerTrack v2 GSR/BAS",
+      "attribution": "SoccerTrack dataset creators; see the provider dataset card and pinned LICENSE-DATA notice.",
+      "version": "Repository release v1.2, revision 325bd4c57ee8e135ab652f3921d274526ada496b; source-file version is retained separately.",
+      "license": "CC-BY-4.0 within the pinned released-data scope",
+      "official_source_urls": [
+        "https://huggingface.co/datasets/atomscott/soccertrack-v2"
+      ],
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Provider-coordinate and clock checks and player-only statistical analyses. This release does not add a raw SoccerTrack mirror or authenticate old legacy tracker files."
+    },
+    "Metrica": {
+      "name": "Metrica Sports Sample Data",
+      "attribution": "Metrica Sports",
+      "license": "Provider terms retained; no author grant over provider materials",
+      "official_source_urls": [
+        "https://github.com/metrica-sports/sample-data"
+      ],
+      "changes": "Nonreconstructive analytical summaries only; obtain tracking and event records from the provider."
+    },
+    "StatsBomb": {
+      "name": "StatsBomb Open Data",
+      "attribution": "StatsBomb; retain its source agreement, acknowledgement and brand-credit requirements.",
+      "license": "StatsBomb Public Data User Agreement; excluded from the author MIT/CC-BY grant",
+      "official_source_urls": [
+        "https://github.com/statsbomb/open-data",
+        "https://github.com/hudl/open-data",
+        "https://statsbomb.com/media-pack/"
+      ],
+      "changes": "Shot-conditional Goal analytical summaries only. No event, lineup, per-event prediction rows or StatsBomb-trained weights are supplied. Retained agreement restricts commercial use of data/derived analyses and requires brand-logo accreditation."
+    },
+    "LegacyGSR": {
+      "name": "Legacy GSR/SoccerNet-labelled historical analysis",
+      "attribution": "Historical source identity, acquisition and ball lineage remain unresolved.",
+      "license": "No grant over unverified historical provider records",
+      "official_source_urls": [],
+      "changes": "Nonreconstructive statistical outputs and methods only. A current provider licence does not authenticate or license the old source files."
+    }
+  },
+  "no_additional_source_data_authorized": true,
+  "no_training_or_numerical_change_for_release": true
+}

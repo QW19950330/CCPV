@@ -1,0 +1,204 @@
+{
+  "status": "FROZEN_SOURCE_AND_ALL15_MATCHED_FINAL_CHECKPOINTS_NO_FORWARD",
+  "utc": "2026-10-25T18:24:24.392296+00:00",
+  "sources": [
+    {
+      "source": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\api.py",
+      "copy": "model_source\\api.py",
+      "sha256": "f5726fe98c15c84f4dfe09647a3077847f3f65afc22ac3ae2bbd26506d39c316"
+    },
+    {
+      "source": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\motion_models.py",
+      "copy": "model_source\\motion_models.py",
+      "sha256": "950b183c5d916e94ce5af154e27556cb8c9cd35b4092db22fb5735ac5ad005a8"
+    },
+    {
+      "source": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\consistent_core\\__init__.py",
+      "copy": "model_source\\consistent_core\\__init__.py",
+      "sha256": "1cdb8ce2e6602f1790ec35ee82755d25c544ba7e550220512376c7d3bd7b98f3"
+    },
+    {
+      "source": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\consistent_core\\models.py",
+      "copy": "model_source\\consistent_core\\models.py",
+      "sha256": "062bf4e0e606cecfa864919773a7b9aff5d871210b5616c07c7494236535a830"
+    },
+    {
+      "source": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\consistent_core\\gap_model.py",
+      "copy": "model_source\\consistent_core\\gap_model.py",
+      "sha256": "2c11901d247071f434278b1c843b6c1f9740b8a6fee376f13b8bb8afc11c03bd"
+    },
+    {
+      "source": "${WORKSPACE_ROOT}\\CCPV_core_validity_evidence_20261025\\methods_contract\\reference_operator\\reference_operator.py",
+      "copy": "source_operator\\reference_operator.py",
+      "sha256": "850c8993584c2ec6693209c53610a536381b90f6b815ab8ec20e50572f4afbc3"
+    },
+    {
+      "source": "${WORKSPACE_ROOT}\\CCPV_train_match_calibration_20261025\\run_stage.py",
+      "copy": "run_stage.py",
+      "sha256": "384a52b7b1cad6f35de94ae071d9cfb60086c932b0835893044b406899fd6425"
+    }
+  ],
+  "checkpoints": [
+    {
+      "arm": "A_raw4d",
+      "seed": 0,
+      "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\A_raw4d_seed0\\world_last.pt",
+      "sha256": "be5757d1897622dc65138701622fe2bc9fcd4a50b8a69743425c50acd094dafb",
+      "result_path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\A_raw4d_seed0\\result.json",
+      "result_sha256": "cfa3587cd71a6cf00e9088282d9be71f444926b4e97fe0e2e5389c564a743b02",
+      "epochs": 4,
+      "updates": 96
+    },
+    {
+      "arm": "A_raw4d",
+      "seed": 1,
+      "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\A_raw4d_seed1\\world_last.pt",
+      "sha256": "21cfe643c0145d36afd40ba3a7241f2f1321d3125bf3ecb4cd10b63eadf065dd",
+      "result_path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\A_raw4d_seed1\\result.json",
+      "result_sha256": "81194449ac8cee7fcda3d9a9bae559b202cb538f71377a727e84984b61d893c1",
+      "epochs": 4,
+      "updates": 96
+    },
+    {
+      "arm": "A_raw4d",
+      "seed": 2,
+      "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\A_raw4d_seed2\\world_last.pt",
+      "sha256": "78333b44ff7858f7d492bb2fdacebe10d28cfbaabb804745878df42b49cb54c3",
+      "result_path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\A_raw4d_seed2\\result.json",
+      "result_sha256": "ddcc9ad51b92709f7f425b29ef563d715dca17a77cd96be34e8a4091eaefd6fa",
+      "epochs": 4,
+      "updates": 96
+    },
+    {
+      "arm": "A_raw4d",
+      "seed": 3,
+      "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\A_raw4d_seed3\\world_last.pt",
+      "sha256": "4e53c6c23acc1664c973db61c972ef659755d2f7fcc4fce800ddd9f9e6e7b8a0",
+      "result_path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\A_raw4d_seed3\\result.json",
+      "result_sha256": "14a44b317d5ded8d77a63bedce250d69620b44e98e0f07ade4a2417673ebe097",
+      "epochs": 4,
+      "updates": 96
+    },
+    {
+      "arm": "A_raw4d",
+      "seed": 4,
+      "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\A_raw4d_seed4\\world_last.pt",
+      "sha256": "4555768c711c49ea806baa9c018eac2cf178c974c48105c607e43c7ad51b8f12",
+      "result_path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\A_raw4d_seed4\\result.json",
+      "result_sha256": "cb2dfeef2c81acf5c0e8292964c371995a144ff757877a84b67a60d6da87e060",
+      "epochs": 4,
+      "updates": 96
+    },
+    {
+      "arm": "C_coupled_tf",
+      "seed": 0,
+      "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\C_coupled_tf_seed0\\world_last.pt",
+      "sha256": "6e3fc7a452f9da1eef62da5b03838a9c4b231eec309a0ed2a3b7528b88700917",
+      "result_path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\C_coupled_tf_seed0\\result.json",
+      "result_sha256": "8f2c673efa0b413035239f54dabf903647cbc7ac7ae65d863d4f0a0f95f61a1f",
+      "epochs": 4,
+      "updates": 96
+    },
+    {
+      "arm": "C_coupled_tf",
+      "seed": 1,
+      "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\C_coupled_tf_seed1\\world_last.pt",
+      "sha256": "6746703929b42c80e22bbf62c7c273fd51e624f8a6e8cf8b369913515eb86cd9",
+      "result_path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\C_coupled_tf_seed1\\result.json",
+      "result_sha256": "88ac1c74d5d65855286f8545f4b8d04336e8d7578b106497f23b986264320da3",
+      "epochs": 4,
+      "updates": 96
+    },
+    {
+      "arm": "C_coupled_tf",
+      "seed": 2,
+      "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\C_coupled_tf_seed2\\world_last.pt",
+      "sha256": "af1823eee6ddb66aef926b9773fc6ef2aa61da96d760706f4a52596d93472127",
+      "result_path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\C_coupled_tf_seed2\\result.json",
+      "result_sha256": "f11328cd43eaca09d307f9b618bb7e23562e519ee05ea2497c2cb154d7d40d68",
+      "epochs": 4,
+      "updates": 96
+    },
+    {
+      "arm": "C_coupled_tf",
+      "seed": 3,
+      "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\C_coupled_tf_seed3\\world_last.pt",
+      "sha256": "52e4e61d1d6f17c71454ea8099c49eaf6da0df2ca1cf1ce86c77b23dc7ad4e6c",
+      "result_path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\C_coupled_tf_seed3\\result.json",
+      "result_sha256": "ef75ff0db1a0dd08e7d0533a0f3558baa9fabe04b7f57c93b20324de6bdaa946",
+      "epochs": 4,
+      "updates": 96
+    },
+    {
+      "arm": "C_coupled_tf",
+      "seed": 4,
+      "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\C_coupled_tf_seed4\\world_last.pt",
+      "sha256": "e3b8cec5e4443c24a070898aed770061c1727501286fcdafff8d9fe6fbbb153b",
+      "result_path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\C_coupled_tf_seed4\\result.json",
+      "result_sha256": "5e77e74b63af0c52cdf34af626efb442fccbde49864713a2046d9e24f5f71b38",
+      "epochs": 4,
+      "updates": 96
+    },
+    {
+      "arm": "D_coupled_ar",
+      "seed": 0,
+      "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed0\\world_last.pt",
+      "sha256": "cab539f3b7eab476d06a0174ad40df3ec9fde4485084062d0f49e5e7d29a0fc3",
+      "result_path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed0\\result.json",
+      "result_sha256": "9fe6d2cd6826a32e2b9c63885d2576f5d32a10aadc339d2b5923ec7a355b44d7",
+      "epochs": 4,
+      "updates": 96
+    },
+    {
+      "arm": "D_coupled_ar",
+      "seed": 1,
+      "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed1\\world_last.pt",
+      "sha256": "6bc1007b8b06f6723cc456fe233246bb91d3b2eca532d71703a9a227e87b4487",
+      "result_path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed1\\result.json",
+      "result_sha256": "b22c6fdc4d7eeb2dbb5f045315e314a7e5588ce0be155e4f5e1019b346a1999c",
+      "epochs": 4,
+      "updates": 96
+    },
+    {
+      "arm": "D_coupled_ar",
+      "seed": 2,
+      "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed2\\world_last.pt",
+      "sha256": "143ca82f2008b6248df79d01c89ebcdac847f8e533c3f39a4aab24fc7e2878d4",
+      "result_path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed2\\result.json",
+      "result_sha256": "0f01db0e0e50d381e4a6f1e9456daa9b6af202e7c65e6eb6f74ccc0998015382",
+      "epochs": 4,
+      "updates": 96
+    },
+    {
+      "arm": "D_coupled_ar",
+      "seed": 3,
+      "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed3\\world_last.pt",
+      "sha256": "cd3cd8c678875956a90385a1f52716c18f17604b0f7b8e6a8043106968fb39a0",
+      "result_path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed3\\result.json",
+      "result_sha256": "949834d03bd366342e3733bd37fdb2bb988f5ef18b754d238a5e0cc881f46aea",
+      "epochs": 4,
+      "updates": 96
+    },
+    {
+      "arm": "D_coupled_ar",
+      "seed": 4,
+      "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed4\\world_last.pt",
+      "sha256": "763e408e14aa8cd6f8295dc5ca9da2e58627609ce3c54fe8fb427954cd698c64",
+      "result_path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed4\\result.json",
+      "result_sha256": "d4be3aa26c74a2131d3c7e9c3ab48b633786ef349e2e9922ac713744a0d3672a",
+      "epochs": 4,
+      "updates": 96
+    }
+  ],
+  "parent_protocol": {
+    "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\protocol.json",
+    "sha256": "85f97248597247918c493d89cf38844e94da11d2540e0d76dc0b530890f93f92"
+  },
+  "parent_source_lock": {
+    "path": "${WORKSPACE_ROOT}\\CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\lock.json",
+    "sha256": "9d439024b122df4727132005ca0e60d30a190b2d3a8a20cf22ded54031f2435d"
+  },
+  "no_validation_or_test_selection": true,
+  "no_model_construction_or_checkpoint_deserialization_or_raw_array_decoding": true,
+  "source_and_checkpoint_bytes_hashed_only": true
+}

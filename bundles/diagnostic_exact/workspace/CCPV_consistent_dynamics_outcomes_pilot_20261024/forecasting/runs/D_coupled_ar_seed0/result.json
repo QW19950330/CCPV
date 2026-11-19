@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETED",
+  "arm": "D_coupled_ar",
+  "seed": 0,
+  "epochs_completed": 4,
+  "updates": 96,
+  "checkpoint_sha256": "cab539f3b7eab476d06a0174ad40df3ec9fde4485084062d0f49e5e7d29a0fc3",
+  "history_sha256": "6f4a00fd14380550bea7c5c576afb83b61d061a94dd3be724dc7cc46a81cfc92",
+  "common_initial_hash": "9b77f7a4a1b0044e0c7465a2c6f4b1b3d0f3469f191c0c975f1a415fe17fc427",
+  "velocity_initial_hash": "34eee1be3b9105ef836dedb0c5dba981274ee836e8b004ace2673cbf39d24d4d",
+  "checkpoint_used": "fixed epoch4"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS_TARGETED_RUNNER_REVIEW_SYNTHETIC",
+  "checks": {
+    "valid_resume_block_passes": true,
+    "rejects_wrong_arm": true,
+    "rejects_wrong_seed": true,
+    "rejects_wrong_start": true,
+    "rejects_wrong_stop": true,
+    "rejects_wrong_path": true,
+    "rejects_wrong_input_sha256": true,
+    "rejects_wrong_implementation_sha256": true,
+    "rejects_wrong_sha256": true,
+    "rejects_changed_source_rows": true,
+    "entire_unsupported_block_retains_NA_and_zero_support": true,
+    "rejected_first_reset_retained_while_natural_completes": true,
+    "pairwise_support_independent_of_persistent_and_sham_does_not_rescue_first": true,
+    "first_sham_natural_vector_decomposition": true
+  },
+  "code_sha256": "7cd4ddc7a6b8a3bb6ff992a46e4cc6bb629f394f70b528b30a3300b4eac1a6af",
+  "new_real_prefix_reads": 0,
+  "saved_checkpoint_loads": 0,
+  "real_model_forwards": 0,
+  "training_updates": 0,
+  "scope": "Synthetic arrays, CV and receipt fixtures only; earlier root synthetic separately covers random D."
+}

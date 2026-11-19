@@ -1,0 +1,229 @@
+{
+  "status": "COMPLETED4992_TEST_PREFIX_EXTRACTION",
+  "source_sha256": "1b2567a95cb1528bd5cc6fe0ce88454df4c966e75857c3466672635c74a98e09",
+  "protocol_sha256": "7c6eead0eaafa99466eaa348e8261fa3ab5675941afeaac8d128127e514598f0",
+  "upstream_reader_sha256": "d2678d3bea5f8745504ebe97ec8d6866089fd90db95a3a9b10eaa2b41a36bea8",
+  "input_archive_sha256": "0e889418572d8c636171b101473b9428000596dc722f4e7ea053d056cab29091",
+  "split_sha256": "b05dee0ac36b1aa7e6c11e3f085a640d06d11fe78facc3444b980f2cff8be945",
+  "download_manifest_sha256": "74082c2931dbd9fcf90b737b5597a29e74b0d667134a3a50da0aec56f6560bd1",
+  "path": "CCPV_external_response_audit_20261119\\skillcorner_prepared\\test_prefixes.npz",
+  "sha256": "a14904ed5a215805ce390fa0885b99e2e49752da096d47b119ba0019b0b8b656",
+  "metadata_sha256": "f3a9423f5ca72256f5a29d4f62b20226666313385a35fad182133754b4fb98e3",
+  "rows": 4992,
+  "matches": [
+    "skillcorner:1927964",
+    "skillcorner:2006363",
+    "skillcorner:2015213",
+    "skillcorner:2017461"
+  ],
+  "row_indices": "All original source test_indices; original order; source_indices=bundle_row_indices",
+  "history_frames": 10,
+  "slot_mapping_summary": {
+    "skillcorner:1927964": {
+      "rows": 1308,
+      "home_id_count_under11": 0,
+      "known_wrong_first_history_previous_id_fullvalid_rows": 0,
+      "omitted_away_history_position_observed_rows": 0
+    },
+    "skillcorner:2006363": {
+      "rows": 1261,
+      "home_id_count_under11": 0,
+      "known_wrong_first_history_previous_id_fullvalid_rows": 0,
+      "omitted_away_history_position_observed_rows": 0
+    },
+    "skillcorner:2015213": {
+      "rows": 1312,
+      "home_id_count_under11": 0,
+      "known_wrong_first_history_previous_id_fullvalid_rows": 0,
+      "omitted_away_history_position_observed_rows": 0
+    },
+    "skillcorner:2017461": {
+      "rows": 1111,
+      "home_id_count_under11": 0,
+      "known_wrong_first_history_previous_id_fullvalid_rows": 0,
+      "omitted_away_history_position_observed_rows": 0
+    }
+  },
+  "arrays": {
+    "match_ids": {
+      "shape": [
+        4992
+      ],
+      "dtype": "<U19",
+      "sha256": "a3c9ca7d9303572400c5b417c48bb51daf0fd2572b73e07160924fa2532d8eff"
+    },
+    "entity_ids": {
+      "shape": [
+        4992,
+        23
+      ],
+      "dtype": "<U32",
+      "sha256": "630c3d7c1d854c518e046fe8a473390702439990e86db4b9c9b75bcb65a0451d"
+    },
+    "source_period": {
+      "shape": [
+        4992
+      ],
+      "dtype": "int64",
+      "sha256": "c3f7147b092ca6e12f5adc7bf17bdc397b1b303c4353da926e615c407b681f7c"
+    },
+    "source_indices": {
+      "shape": [
+        4992
+      ],
+      "dtype": "int64",
+      "sha256": "119ea31cefab17b2b1cb4bf1be9084d678ec3b55a697f110274bafb61ff30923"
+    },
+    "bundle_row_indices": {
+      "shape": [
+        4992
+      ],
+      "dtype": "int64",
+      "sha256": "119ea31cefab17b2b1cb4bf1be9084d678ec3b55a697f110274bafb61ff30923"
+    },
+    "history_states": {
+      "shape": [
+        4992,
+        10,
+        23,
+        4
+      ],
+      "dtype": "float32",
+      "sha256": "bccca3c962f2a41fd826f9623b55fc5bd1f30ba09f0bc6da6da400847524bc0c"
+    },
+    "history_valid": {
+      "shape": [
+        4992,
+        10,
+        23
+      ],
+      "dtype": "bool",
+      "sha256": "6247088c9ff50bc7402bd9ff3976e94e3e86e55fc64f7b835972447d522fa66c"
+    },
+    "history_position_valid": {
+      "shape": [
+        4992,
+        10,
+        23
+      ],
+      "dtype": "bool",
+      "sha256": "86df34abdb115186b33b222fe5a2f2c0f2fdbfed070777710fb9638e7ce8b0d1"
+    },
+    "source_frame_ids": {
+      "shape": [
+        4992,
+        10
+      ],
+      "dtype": "int64",
+      "sha256": "503ff887f522fda77f6512bf33c7294fbb0c0728961d389f51224b048f97c38b"
+    },
+    "frame_times_s": {
+      "shape": [
+        4992,
+        10
+      ],
+      "dtype": "float64",
+      "sha256": "10c3cbbed43692085e4169be232a54cb3a446453522d3ad317bdc40595be3d8a"
+    },
+    "teams": {
+      "shape": [
+        23
+      ],
+      "dtype": "int64",
+      "sha256": "10c75ed24fa72bce11b5fd96e58f1857d193ed66410de3e875d8a4a549a89496"
+    },
+    "history_seen": {
+      "shape": [
+        4992,
+        23
+      ],
+      "dtype": "bool",
+      "sha256": "6a0e93f42c2844d491d925970f1ecb34906b6a8c8be24a0d64a34dd07b912d6c"
+    },
+    "provider_team_ids": {
+      "shape": [
+        4992,
+        23
+      ],
+      "dtype": "int64",
+      "sha256": "120019285bc84e3f9b843114a46f9f6ace4e6ffc33b12d6328030475586d006f"
+    },
+    "identity_status": {
+      "shape": [
+        4992,
+        23
+      ],
+      "dtype": "<U40",
+      "sha256": "12092b1225c65018ad0dea7b652267ca84797b3a66fa51c5c857d4cfe661a352"
+    },
+    "home_team_id": {
+      "shape": [
+        4992
+      ],
+      "dtype": "int64",
+      "sha256": "dc385b260836f7a9a5d61f4815356dd54a001acddebb03a487840b734857d8d1"
+    },
+    "away_team_id": {
+      "shape": [
+        4992
+      ],
+      "dtype": "int64",
+      "sha256": "87e802d9c72a636418379638f1ec4fa85e50470c52c0cf66d650688f53638e37"
+    },
+    "operator_candidate_slots": {
+      "shape": [
+        4992,
+        2
+      ],
+      "dtype": "int64",
+      "sha256": "9ce0256630108cdff16d6e404f57b452f9f5a440957ae1b0e27b59c422805fd0"
+    },
+    "operator_candidate_ids": {
+      "shape": [
+        4992,
+        2
+      ],
+      "dtype": "<U32",
+      "sha256": "b5bfa27eef077ef57cad07394d9d870d57814ff09b5c56aeb509a74d2d1a279b"
+    },
+    "operator_eligible_home_count": {
+      "shape": [
+        4992
+      ],
+      "dtype": "int64",
+      "sha256": "77c189fc60c0bf97abcd8c4d9c291f5af33d9389a1e5d39af46b897d5bd840bf"
+    },
+    "operator_case_status": {
+      "shape": [
+        4992
+      ],
+      "dtype": "<U48",
+      "sha256": "b6914a45f5a5a6137eef8bd5b696c4a6d8e277795b9c33179622741af8d9ee20"
+    },
+    "input_technical_supported": {
+      "shape": [
+        4992
+      ],
+      "dtype": "bool",
+      "sha256": "44822aebebfdc284d20f5d592e0f5c2d0d4b86f70abe5f8a8b3dfd2e3f810e91"
+    },
+    "technical_unsupported": {
+      "shape": [
+        4992
+      ],
+      "dtype": "bool",
+      "sha256": "3b628fecece8197f561fb51e00f8fb1ad33c4e4bc3ff7b0a5d8ba1eb9ed8cb49"
+    },
+    "input_technical_status": {
+      "shape": [
+        4992
+      ],
+      "dtype": "<U39",
+      "sha256": "bea922a54aadb56f45f2ce33b25f659a2c7ddbfcb15a48d3f3c68d8a96cc534b"
+    }
+  },
+  "no_future_values_materialized": true,
+  "no_new_event_labels": true,
+  "model_calls": 0,
+  "training_updates": 0
+}

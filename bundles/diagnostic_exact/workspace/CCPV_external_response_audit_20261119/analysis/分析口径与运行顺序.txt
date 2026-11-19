@@ -1,0 +1,31 @@
+冻结响应分析：执行顺序与口径
+状态：脚本和合成验证就绪；尚未读取真实 response_run01、未来 raw 或评分。必须等根代理确认预测完成冻结及其 completion.json SHA 后执行。不得用部分cell、预览分数或未完成批次先汇总。
+
+三个脚本（Python + NumPy 1.26.4；无torch/model import）
+1. analyze_responses.py --run-dir <response_run01> --prediction-freeze-sha256 <根确认completion SHA> --out <全新response_summary_run01目录>
+   要求完整六cell/4992窗回执、固定路径顺序；逐block SHA与数组接口校验。输出逐行路径状态/原因、逐场20时点曲线、0.2/1/2s全部窗记录、独立contrast配对D−CV、d2−d0.2逐窗差值的四场等权和五seed SD、sham向量拆分及中文报告。
+2. recover_truth.py --base <workspace> --run-dir <response_run01> --prediction-freeze-sha256 <同SHA> --source-spec <analysis/truth_source_spec.json> --source-spec-sha256 <该文件SHA> --out <全新truth_run01目录>
+   从已冻结四场源清单恢复玩家位置。只解析请求的10历史+20未来帧坐标，其他raw字节只流式核SHA；不读events/BAS。先证明历史detected mask及full-valid xy与原cache一致，然后保存独立未来truth。每个应存在的连续30帧必须找到；丢整帧是技术失败，不当作普通位置缺失。
+3. score_factual.py --run-dir <response_run01> --prediction-freeze-sha256 <同SHA> --truth-dir <truth_run01> --truth-completion-sha256 <truth回执SHA> --out <全新factual_summary_run01目录>
+   只评自然路径；绑定原prepared prefix SHA，natural是否完成必须等于预锁actor/technical资格，support必须等于历史seen人口并完整20步，六cell人口一致。不能因某模型漏预测而悄悄减少其ADE分母。球不评分。
+所有输出目录必须不存在；脚本拒绝覆盖。代码只读已有预测、前缀与固定raw，完全不训练、不再预测、不改旧文件。不设置效果通过线。
+
+统计定义
+• 路径顺序 natural/NONE/first/persistent/maintained-v0/sham；对比顺序 first-natural、persistent-natural、v0-natural、sham-natural、first-sham、persistent-v0。
+• 每个对比、时点按自身两路径支持；first主结果不要求persistent成功。partial路径在其已完成时间仍可有支持；失败之后为NA。逐行失败原因和所有4992计划行保留。
+• actor_dx/dy为二维位置差；actor_distance为范数；actor_projection为固定命令方向投影；other_player_rms为其他历史可用玩家（排除actor和球）的RMS位移差。单位均为105×68标准坐标米等价值，并非新增物理精度认证。
+• 每窗指标→每场均值→四场等权；D五seed均值和ddof=1 SD只表示初始化变化。某场无支持，则该seed严格四场macro为NA；某seed缺macro则严格五seed汇总为NA。CV只算一次，不造五个独立CV。window_sd只描述窗分布；窗口、种子都不是新增独立比赛。
+• d(2)-d(0.2)先在同一窗两端都支持时相减，再按上述层次汇总，不能用两个不同人群的曲线均值相减。对应文件fixture_decay、decay_seed_macros、decay_equal_match_five_seed_summary。
+• sham向量残差在first/sham/natural三者共同支持上计算。三个距离均值可能各用不同pair support，且范数本来就不可相加；报告明示这一点。
+• truth仅is_detected is True且finite xy，按105/pitch_length及68/pitch_width缩放；未观测为NaN/false。真实(0,0)仍可有效。原state的full-valid=false时xy被清零，不能替代位置truth。保留本来位置可观测而速度不可用的未来点。
+• ADE20是每窗20时刻有效球员-时刻距离的均值；FDE1/2为相应时刻有效球员距离均值。每窗、每场、五seed层次不变；D/CV比较用完全相同actor-time支持，附有效点分母。
+• CSV空单元为NA，数值0保持0；n_planned含NA，n_supported只数有数值窗，n_na=二者之差。真实比赛数始终4。
+
+验证与界限
+response_synthetic_validation_v2.json：7项统计合成检查通过。
+truth_synthetic_validation_v3.json：13项detected-only/缺帧/配对/预锁人口合成检查通过。
+另有analysis_review独立审查由model_asset_bundle负责。合成文件不能冒充真实结果或全部科学复现。
+四场已有测试暴露，本任务是冻结模型对历史test-cache的后续诊断；响应持续、事实误差或sham差异均不证明真实反事实、战术/Goal收益或全链独立有效性。原九场Shot10结果不在这些脚本中重算。无需因此再开训练、多臂或文稿版本。
+
+精确命令参数
+run_commands.json 保存当前workspace绝对cwd、Python绝对路径、windowsHide:true及三步逐项argv，避免shell转义。仅有预测完成SHA和第二步产出的truth完成SHA需要在实际冻结后替换；其余路径、输出目录和source-spec SHA已填实。不要在运行前以空值或占位文字替代SHA。

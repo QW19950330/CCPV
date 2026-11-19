@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "publication_state": "GitHub repository and initial main commit exist. Zenodo draft24370617 has reserved DOI10.5281/zenodo.24370617; publication/registration is not asserted. This source snapshot is staged for the author-controlled commit.",
+  "archives": [
+    {
+      "bundle": "runtime",
+      "role": "public runtime metadata/guard binding and original math code",
+      "filename": "CCPV_public_runtime_bindings_candidate_20261119_v1.zip",
+      "sha256": "89eecfbf26fc5144692a7661cfebeed0ae39316cff8759bced4463adbd38c60e",
+      "bytes": 5359946,
+      "complete_members": 278,
+      "git_source_members": 90
+    },
+    {
+      "bundle": "portable",
+      "role": "portable source code",
+      "filename": "CCPV_portable_source_release_candidate_20261119_v1.zip",
+      "sha256": "cc157a95f219a9699b0e6e08dc6f638f197f995122f573b6b7714b0e9ee95339",
+      "bytes": 1342647,
+      "complete_members": 294,
+      "git_source_members": 225
+    },
+    {
+      "bundle": "diagnostic_exact",
+      "role": "new diagnostic exact-source archive",
+      "filename": "CCPV_diagnostic_code_local_candidate_20261119_v1.zip",
+      "sha256": "e641fb2d75d7cc252921e4d74fc94625595eb444e72ee399791a5a8c6d1434ba",
+      "bytes": 179554,
+      "complete_members": 65,
+      "git_source_members": 53
+    },
+    {
+      "bundle": "diagnostic_portable",
+      "role": "new diagnostic portable clean bridge",
+      "filename": "CCPV_diagnostic_clean_adapter_local_candidate_20261119_v2.zip",
+      "sha256": "561c60f1a3703e1d23cd156174c808b92cc21e45db4744caca34ccc0ebca6760",
+      "bytes": 69280,
+      "complete_members": 27,
+      "git_source_members": 23
+    }
+  ],
+  "excluded_member_count": 273,
+  "materialization": "Use materialize_code.py to reconstruct the full original archive in a fresh directory outside this clone. Git bundles are a source view, not full archives.",
+  "repository": "https://github.com/QW19950330/CCPV"
+}

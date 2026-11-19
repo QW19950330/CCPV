@@ -1,0 +1,24 @@
+Source attribution: SkillCorner Open Data, in collaboration with PySport, fixed repository revision 4340d274572876239c154c90bc507a9b3250a656, https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656 . The fixed repository MIT notice is preserved below; README requests attribution. Scope is repository materials, not outside video/commercial products.
+Processing: fixed 1024 development windows (768 TRAIN, 256 validation), exact recovered positions and masks, all 768 causal TRAIN prefixes, fixed24 selection, fixed191/12-match continuous cohort, roster/pitch metadata, and fixed pseudorandom noise/commands. Whole source NPZ bytes and NA are unchanged. Synthetic noise and author model/software rights are separate from the source-data MIT notice.
+
+The MIT License
+
+Copyright (c) 2020 SkillCorner. https://skillcorner.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

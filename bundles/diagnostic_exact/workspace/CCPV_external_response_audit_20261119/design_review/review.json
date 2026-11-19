@@ -1,0 +1,49 @@
+{
+  "status": "ACCEPT_FOR_FREEZE_WITH_DECLARED_IMPLEMENTATION_GATES",
+  "reviewed_utc": "2026-11-19T11:03:26.223Z",
+  "protocol": "CCPV_external_response_audit_20261119/skillcorner_response_protocol.json",
+  "protocol_sha256": "7c6eead0eaafa99466eaa348e8261fa3ab5675941afeaac8d128127e514598f0",
+  "same_semantic_content_as_reviewed": true,
+  "decision": "Proceed to finite protocol/implementation freeze and the already authorized six-path diagnostic after the original source-input integrity and invariant gates. No new training, trial-selection, cohort expansion or additional design iteration is required.",
+  "strengths": [
+    "All4992 fixed historical test-cache windows retained across4 matches, no new64-window sample.",
+    "Five pre-existing D seeds and one CV, six predeclared paths including provenance-only sham.",
+    "Explicit post-exposure and retrospective-cache population; no new-blind or real-causal claim.",
+    "Future raw truth restricted to post-prediction scoring; no imputed/zeroed truth.",
+    "Fixed numerical environment, request bounds, adverse outcomes, failures and denominators retained."
+  ],
+  "required_narrow_clarifications": [
+    {
+      "id": "sham_initialization_point",
+      "severity": "IMPLEMENTATION_BEFORE_FIRST_REAL_FORWARD",
+      "issue": "Original operator_adapter.rollout line105 creates provenance internally. A pre-call edit to an unrelated observed tensor would be discarded.",
+      "required": "Inject first-only sham immediately after original initialization and before first model step. Keep history/valid byte-identical, clear only targetA terminal observation flag, recompute age by original helper and retain original recurrence. Add CV sham==natural to invariant checks.",
+      "changes_model_math_or_training": false,
+      "status": "IMPLEMENTATION_CHECK_REQUIRED_NOT_A_NEW_DESIGN_ITERATION"
+    },
+    {
+      "id": "contrast_specific_support",
+      "severity": "ANALYSIS_RULE_BEFORE_RESULTS",
+      "issue": "Generic common paired support could inadvertently condition the primary first-reset contrast on persistent-path success.",
+      "required": "Primary first-natural uses predeclared support of those two paths. Each mechanism/persistent contrast has its own fixed pair; report per-contrast counts. D/CV paired comparisons additionally use matched windows/entities/times. Do not require persistent success for primary first contrast.",
+      "changes_model_math_or_training": false,
+      "status": "RESOLVED_IN_REVIEWED_PROTOCOL"
+    }
+  ],
+  "existing_gates_not_new_work": [
+    "Resolve original home<11 velocity-slot QA before real input execution; preserve all planned rows and separately record technically affected unsupported rows.",
+    "Bind exact assets/checkpoints/code SHA and pass no-op/locality/no-created-support/numerical invariants under the declared CPU FP32 implementation.",
+    "Use the completed exposure ledger: four test-held matches were already evaluated in old20cell/64-window studies; do not call them new blind tests."
+  ],
+  "additional_trials_required": 0,
+  "new_training_required": 0,
+  "scientific_success_threshold_required": false,
+  "review_scope": "Protocol and static implementation implications only; no prospective performance claim, no experiment execution, no guarantee every row supports every condition.",
+  "changed_after_initial_read": true,
+  "bounded_change_review": [
+    "cohort.scope now explicitly records old reserved_test_confirmation_v1 / 256windows / 20oldcells / test_metrics_viewed=true; accepted.",
+    "denominators now explicitly use per-contrast paired support; first-natural excludes persistent-success conditioning; accepted and resolves clarification2."
+  ],
+  "no_fatal_design_issue_found": true,
+  "maximum_new_requirements": "One implementation placement/invariance check for the predeclared sham; original source QA and invariants already required by protocol."
+}

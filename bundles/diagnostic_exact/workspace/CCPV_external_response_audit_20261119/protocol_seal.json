@@ -1,0 +1,11 @@
+{
+  "status": "FROZEN_BEFORE_FULL_TEST_PREFIX_EXTRACTION_AND_NEW_RESPONSE_FORWARD",
+  "created_utc": "2026-11-19T11:04:09.661Z",
+  "protocol_sha256": "7c6eead0eaafa99466eaa348e8261fa3ab5675941afeaac8d128127e514598f0",
+  "design_review_sha256": "0b7cf639c0b887ab34c8eaba55d1d49259cc918eac3cb2e68c4fde8b3be61f12",
+  "initial_synthetic_sha256": "3068f008374fd0e37a3f264a8c370a67be42cb272ad20688e9011f8bbfff846c",
+  "test_cohort_exposed": true,
+  "new_training_authorized": false,
+  "source": "Existing user authorization; no result-dependent choice",
+  "note": "Implementation and prepared-input pins will be sealed separately after integrity QA, before any saved-checkpoint forward."
+}

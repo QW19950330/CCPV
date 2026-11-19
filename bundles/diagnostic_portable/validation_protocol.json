@@ -1,0 +1,34 @@
+{
+  "status": "LOCKED_BEFORE_BOUNDED_REAL_PREFIX_FORWARD",
+  "created_utc": "2026-11-19T12:36:04.901Z",
+  "row_positions": [
+    0,
+    1
+  ],
+  "selection": "First two original planned rows, fixed before reading prefix arrays or any new response; no outcome or response-based selection.",
+  "batch_size": 2,
+  "models": [
+    "CV",
+    "D_coupled_ar_seed0",
+    "D_coupled_ar_seed1",
+    "D_coupled_ar_seed2",
+    "D_coupled_ar_seed3",
+    "D_coupled_ar_seed4"
+  ],
+  "paths": [
+    "natural",
+    "none_every_step",
+    "first_A",
+    "persistent_A",
+    "maintained_v0_A",
+    "first_provenance_only_A"
+  ],
+  "comparison": "Clean NPZ versus original checkpoint at identical batch2, same original CPU FP32 model/API/operator; every output array byte, reason, status and check. No comparison to historical batch32 outputs.",
+  "entry_sha256": "88a80bd364b6dcd98b547ca00e5160fbeb1f20459bb2f415b4da1a33e59a90e0",
+  "validation_source_sha256": "b36cdbc693f1858db6e70ad27e3ed60376de92eacd9ed081695fa0525204d6c5",
+  "binding_sha256": "d4ba1fa402cbff99424c006fd44dfb7f50a558e05443b0e4eb7dc0be285fa85f",
+  "no_tolerance_changes": true,
+  "full_cohort_execution": false,
+  "training_updates": 0,
+  "future_truth_reads": 0
+}

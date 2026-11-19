@@ -1,0 +1,41 @@
+{
+  "status": "LOCKED_BEFORE_TRACKING_DOWNLOAD_OR_MODEL_EVALUATION",
+  "created_utc": "2026-10-22T17:34:07.023402+00:00",
+  "source_commit": "4340d274572876239c154c90bc507a9b3250a656",
+  "rule": "SHA256 ordering of CCPV-20261022-SkillCorner-{match_id}; first12 train, next4 validation, last4 test",
+  "groups": {
+    "train": [
+      "skillcorner:1874553",
+      "skillcorner:1886347",
+      "skillcorner:1899585",
+      "skillcorner:1953632",
+      "skillcorner:1959846",
+      "skillcorner:1996435",
+      "skillcorner:1996436",
+      "skillcorner:2006229",
+      "skillcorner:2007721",
+      "skillcorner:2010085",
+      "skillcorner:2013725",
+      "skillcorner:2016236"
+    ],
+    "validation": [
+      "skillcorner:1925299",
+      "skillcorner:1986691",
+      "skillcorner:2007448",
+      "skillcorner:2011166"
+    ],
+    "test": [
+      "skillcorner:1927964",
+      "skillcorner:2006363",
+      "skillcorner:2015213",
+      "skillcorner:2017461"
+    ]
+  },
+  "prior_model_exposure": false,
+  "fps": 10.0,
+  "history_frames": 10,
+  "future_frames": 20,
+  "stride_frames": 10,
+  "ground_truth_scope": "Only finite provider positions explicitly flagged is_detected=true; extrapolated points kept separately, never observed targets",
+  "fresh_means": "Not used for earlier CCPV model fitting/selection; source metadata/QC may be inspected"
+}

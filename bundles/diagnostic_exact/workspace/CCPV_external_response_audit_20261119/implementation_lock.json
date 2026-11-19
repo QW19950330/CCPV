@@ -1,0 +1,154 @@
+{
+  "status": "SEALED_BEFORE_REAL_SAVED_CHECKPOINT_RESPONSE_FORWARD",
+  "created_utc": "2026-11-19T11:10:00.629Z",
+  "protocol_sha256": "7c6eead0eaafa99466eaa348e8261fa3ab5675941afeaac8d128127e514598f0",
+  "prepared_prefix_sha256": "a14904ed5a215805ce390fa0885b99e2e49752da096d47b119ba0019b0b8b656",
+  "runner_sha256": "7cd4ddc7a6b8a3bb6ff992a46e4cc6bb629f394f70b528b30a3300b4eac1a6af",
+  "pins": [
+    {
+      "path": "CCPV_external_response_audit_20261119\\skillcorner_response_protocol.json",
+      "sha256": "7c6eead0eaafa99466eaa348e8261fa3ab5675941afeaac8d128127e514598f0",
+      "bytes": 8487
+    },
+    {
+      "path": "CCPV_external_response_audit_20261119\\protocol_seal.json",
+      "sha256": "53d424677f8950c8c8794283460a21639dc62ee7bea046455e248c06065bd977",
+      "bytes": 684
+    },
+    {
+      "path": "CCPV_external_response_audit_20261119\\run_skillcorner_response.py",
+      "sha256": "7cd4ddc7a6b8a3bb6ff992a46e4cc6bb629f394f70b528b30a3300b4eac1a6af",
+      "bytes": 18348
+    },
+    {
+      "path": "CCPV_external_response_audit_20261119\\design_review\\review.json",
+      "sha256": "0b7cf639c0b887ab34c8eaba55d1d49259cc918eac3cb2e68c4fde8b3be61f12",
+      "bytes": 3910
+    },
+    {
+      "path": "CCPV_external_response_audit_20261119\\runner_review\\targeted_synthetic.json",
+      "sha256": "e8ed94d2a7e677254243e3a0a1a244b17ceddb8bedd18952a2f6a58b1be35b53",
+      "bytes": 1047
+    },
+    {
+      "path": "CCPV_external_response_audit_20261119\\runner_review\\runner_synthetic_after_review.json",
+      "sha256": "e7e93825d72a80c73cc19a69582946b5bbfb455313af6d4d9c69a6cb40719beb",
+      "bytes": 348
+    },
+    {
+      "path": "CCPV_external_response_audit_20261119\\skillcorner_prepared\\manifest.json",
+      "sha256": "fca050097d10b5f38b40dd7910fe7feb273bea42e745bc67fc6fbdcbd2c407b3",
+      "bytes": 6667
+    },
+    {
+      "path": "CCPV_external_response_audit_20261119\\skillcorner_prepared\\metadata.json",
+      "sha256": "f3a9423f5ca72256f5a29d4f62b20226666313385a35fad182133754b4fb98e3",
+      "bytes": 6433403
+    },
+    {
+      "path": "CCPV_external_response_audit_20261119\\skillcorner_prepared\\test_prefixes.npz",
+      "sha256": "a14904ed5a215805ce390fa0885b99e2e49752da096d47b119ba0019b0b8b656",
+      "bytes": 8217989
+    },
+    {
+      "path": "CCPV_reviewer_validation_program_20261026\\full_intervention\\assets.json",
+      "sha256": "90b4417360407b6d08229276813859d93819a629771a197b6643afb934dbfb67",
+      "bytes": 15953
+    },
+    {
+      "path": "CCPV_reviewer_validation_program_20261026\\full_intervention\\operator_adapter.py",
+      "sha256": "39c28628637461e5e3d90f802ea901ff7eed86e64e07fe7c1b4e49d2c1a88d9d",
+      "bytes": 14694
+    },
+    {
+      "path": "CCPV_reviewer_validation_program_20261026\\full_intervention\\model_source\\api.py",
+      "sha256": "f5726fe98c15c84f4dfe09647a3077847f3f65afc22ac3ae2bbd26506d39c316",
+      "bytes": 9484
+    },
+    {
+      "path": "CCPV_reviewer_validation_program_20261026\\full_intervention\\model_source\\motion_models.py",
+      "sha256": "950b183c5d916e94ce5af154e27556cb8c9cd35b4092db22fb5735ac5ad005a8",
+      "bytes": 6000
+    },
+    {
+      "path": "CCPV_reviewer_validation_program_20261026\\full_intervention\\model_source\\consistent_core\\__init__.py",
+      "sha256": "1cdb8ce2e6602f1790ec35ee82755d25c544ba7e550220512376c7d3bd7b98f3",
+      "bytes": 87
+    },
+    {
+      "path": "CCPV_reviewer_validation_program_20261026\\full_intervention\\model_source\\consistent_core\\models.py",
+      "sha256": "062bf4e0e606cecfa864919773a7b9aff5d871210b5616c07c7494236535a830",
+      "bytes": 25924
+    },
+    {
+      "path": "CCPV_reviewer_validation_program_20261026\\full_intervention\\model_source\\consistent_core\\gap_model.py",
+      "sha256": "2c11901d247071f434278b1c843b6c1f9740b8a6fee376f13b8bb8afc11c03bd",
+      "bytes": 10597
+    },
+    {
+      "path": "CCPV_reviewer_validation_program_20261026\\full_intervention\\source_operator\\reference_operator.py",
+      "sha256": "850c8993584c2ec6693209c53610a536381b90f6b815ab8ec20e50572f4afbc3",
+      "bytes": 10977
+    },
+    {
+      "path": "CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed0\\world_last.pt",
+      "sha256": "cab539f3b7eab476d06a0174ad40df3ec9fde4485084062d0f49e5e7d29a0fc3",
+      "bytes": 230669
+    },
+    {
+      "path": "CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed0\\result.json",
+      "sha256": "9fe6d2cd6826a32e2b9c63885d2576f5d32a10aadc339d2b5923ec7a355b44d7",
+      "bytes": 524
+    },
+    {
+      "path": "CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed1\\world_last.pt",
+      "sha256": "6bc1007b8b06f6723cc456fe233246bb91d3b2eca532d71703a9a227e87b4487",
+      "bytes": 230733
+    },
+    {
+      "path": "CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed1\\result.json",
+      "sha256": "b22c6fdc4d7eeb2dbb5f045315e314a7e5588ce0be155e4f5e1019b346a1999c",
+      "bytes": 524
+    },
+    {
+      "path": "CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed2\\world_last.pt",
+      "sha256": "143ca82f2008b6248df79d01c89ebcdac847f8e533c3f39a4aab24fc7e2878d4",
+      "bytes": 230733
+    },
+    {
+      "path": "CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed2\\result.json",
+      "sha256": "0f01db0e0e50d381e4a6f1e9456daa9b6af202e7c65e6eb6f74ccc0998015382",
+      "bytes": 524
+    },
+    {
+      "path": "CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed3\\world_last.pt",
+      "sha256": "cd3cd8c678875956a90385a1f52716c18f17604b0f7b8e6a8043106968fb39a0",
+      "bytes": 230733
+    },
+    {
+      "path": "CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed3\\result.json",
+      "sha256": "949834d03bd366342e3733bd37fdb2bb988f5ef18b754d238a5e0cc881f46aea",
+      "bytes": 524
+    },
+    {
+      "path": "CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed4\\world_last.pt",
+      "sha256": "763e408e14aa8cd6f8295dc5ca9da2e58627609ce3c54fe8fb427954cd698c64",
+      "bytes": 230733
+    },
+    {
+      "path": "CCPV_consistent_dynamics_outcomes_pilot_20261024\\forecasting\\runs\\D_coupled_ar_seed4\\result.json",
+      "sha256": "d4be3aa26c74a2131d3c7e9c3ab48b633786ef349e2e9922ac713744a0d3672a",
+      "bytes": 524
+    },
+    {
+      "path": "CCPV_data_expansion_20261022\\data\\skillcorner_10hz.npz",
+      "sha256": "0e889418572d8c636171b101473b9428000596dc722f4e7ea053d056cab29091",
+      "bytes": 116411793
+    }
+  ],
+  "new_training": 0,
+  "future_truth_access": false,
+  "cohort_total": 4992,
+  "actor_eligible": 4945,
+  "original_results_preserved": true
+}

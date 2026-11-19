@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "release": "v2026.11.19",
+  "title": "CCPV revision: frozen code, derived inputs, and evaluation artifacts",
+  "authors": [
+    {
+      "given_name": "Fang",
+      "family_name": "Chen",
+      "affiliation": "Xi’an Physical Education University, Xi’an 710068, China"
+    },
+    {
+      "given_name": "Jiqian",
+      "family_name": "Lin",
+      "affiliation": "Xi’an Physical Education University, Xi’an 710068, China"
+    }
+  ],
+  "publication": {
+    "published": false,
+    "repository_url": "https://github.com/QW19950330/CCPV",
+    "zenodo_record_url": null,
+    "doi": null,
+    "repository_exists": true,
+    "assets_published": false
+  },
+  "package_count": 17,
+  "total_archive_bytes": 5243091104,
+  "hash_algorithm": "SHA-256",
+  "filename_policy": "Original approved archive basenames are preserved for compatibility. Candidate/local words in these immutable names do not add files outside this manifest.",
+  "licensing": "Mixed, scoped licences; see license_scope.json, LICENSE and THIRD_PARTY_NOTICES.md. No blanket licence over all bytes.",
+  "files": [
+    {
+      "index": 1,
+      "filename": "CCPV_idsse_core_derived_inputs_20261119_v1_public_composed_v1.zip",
+      "size_bytes": 611985668,
+      "sha256": "a4293758369d1e3e1dab2461ef8d7307341f87e81c8ab89f720dab1433a19677",
+      "role": "IDSSE core derived inputs",
+      "license_scope_id": "IDSSE_DERIVED",
+      "license_scope": "IDSSE-derived data retain CC BY 4.0 and provider attribution; eligible original documentation/statistics are CC BY 4.0; original author code, where present, is MIT.",
+      "sources": [
+        "IDSSE"
+      ],
+      "official_source_urls": [
+        "https://doi.org/10.6084/m9.figshare.28196177.v1",
+        "https://github.com/PySport/idsse-data/tree/a715a38dfbaf5f58e431727c2b78d174101a703c"
+      ]
+    },
+    {
+      "index": 2,
+      "filename": "CCPV_idsse_terminal_derived_inputs_20261119_v1_public_composed_v1.zip",
+      "size_bytes": 3175097640,
+      "sha256": "e693bacb11f493465685594e80e62d566aa2ccfd94d15627bcd556f22af95f72",
+      "role": "IDSSE terminal features and frozen draws",
+      "license_scope_id": "IDSSE_DERIVED",
+      "license_scope": "IDSSE-derived data retain CC BY 4.0 and provider attribution; eligible original documentation/statistics are CC BY 4.0; original author code, where present, is MIT.",
+      "sources": [
+        "IDSSE"
+      ],
+      "official_source_urls": [
+        "https://doi.org/10.6084/m9.figshare.28196177.v1",
+        "https://github.com/PySport/idsse-data/tree/a715a38dfbaf5f58e431727c2b78d174101a703c"
+      ]
+    },
+    {
+      "index": 3,
+      "filename": "CCPV_idsse_readout_derived_inputs_20261119_v1_public_composed_v1.zip",
+      "size_bytes": 525665833,
+      "sha256": "1d277960446469642dad94c6a7fb371c73fa49adc2579ab103a62b586fcbb479",
+      "role": "IDSSE readout inputs and fixed predictions",
+      "license_scope_id": "IDSSE_DERIVED",
+      "license_scope": "IDSSE-derived data retain CC BY 4.0 and provider attribution; eligible original documentation/statistics are CC BY 4.0; original author code, where present, is MIT.",
+      "sources": [
+        "IDSSE"
+      ],
+      "official_source_urls": [
+        "https://doi.org/10.6084/m9.figshare.28196177.v1",
+        "https://github.com/PySport/idsse-data/tree/a715a38dfbaf5f58e431727c2b78d174101a703c"
+      ]
+    },
+    {
+      "index": 4,
+      "filename": "CCPV_skillcorner_world_derived_inputs_20261119_v1_public_composed_v1.zip",
+      "size_bytes": 547373230,
+      "sha256": "cf7634acb2764bc52e4b8b8d710f1b8bc02703c33b62090e5503d19b6ca8956d",
+      "role": "SkillCorner world-model derived inputs",
+      "license_scope_id": "SKILLCORNER_DERIVED",
+      "license_scope": "Provider materials and derived-source portions retain the pinned SkillCorner MIT notice and attribution; eligible original author documentation/statistics are CC BY 4.0, and original author code is MIT.",
+      "sources": [
+        "SkillCorner"
+      ],
+      "official_source_urls": [
+        "https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656"
+      ]
+    },
+    {
+      "index": 5,
+      "filename": "CCPV_idsse_guard_derived_inputs_20261119_v1_public_composed_v1.zip",
+      "size_bytes": 6396008,
+      "sha256": "bd4ccd378e16e97e6752692472c26f354fbee6bccdcc5c64a7bf6f9a0335b076",
+      "role": "IDSSE guard inputs and controls",
+      "license_scope_id": "IDSSE_DERIVED",
+      "license_scope": "IDSSE-derived data retain CC BY 4.0 and provider attribution; eligible original documentation/statistics are CC BY 4.0; original author code, where present, is MIT.",
+      "sources": [
+        "IDSSE"
+      ],
+      "official_source_urls": [
+        "https://doi.org/10.6084/m9.figshare.28196177.v1",
+        "https://github.com/PySport/idsse-data/tree/a715a38dfbaf5f58e431727c2b78d174101a703c"
+      ]
+    },
+    {
+      "index": 6,
+      "filename": "CCPV_skillcorner_inputs_public_candidate_20261119_v1.zip",
+      "size_bytes": 14687613,
+      "sha256": "16d39b99aec4a734d31191c74e0c0fdddacf56471c5a7117733b08fb072a88bc",
+      "role": "SkillCorner prepared inputs and source notices",
+      "license_scope_id": "SKILLCORNER_DERIVED",
+      "license_scope": "Provider materials and derived-source portions retain the pinned SkillCorner MIT notice and attribution; eligible original author documentation/statistics are CC BY 4.0, and original author code is MIT.",
+      "sources": [
+        "SkillCorner"
+      ],
+      "official_source_urls": [
+        "https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656"
+      ]
+    },
+    {
+      "index": 7,
+      "filename": "CCPV_support_materials_local_candidate_20261119_v1_public_composed_v1.zip",
+      "size_bytes": 11449624,
+      "sha256": "205ca860910b75123e7090ab55ffea7f32ffe53db78d8bdf12e60d67750e8ea2",
+      "role": "Supporting analysis, selected source checks and explanatory records",
+      "license_scope_id": "MIXED_SUPPORT",
+      "license_scope": "Original author code is MIT; eligible original documentation/statistics are CC BY 4.0. Embedded source notices and provider-derived portions retain their own terms. Historical document snapshots are supporting records, not a current manuscript publication.",
+      "sources": [
+        "IDSSE",
+        "SkillCorner",
+        "SoccerTrack"
+      ],
+      "official_source_urls": [
+        "https://doi.org/10.6084/m9.figshare.28196177.v1",
+        "https://github.com/PySport/idsse-data/tree/a715a38dfbaf5f58e431727c2b78d174101a703c",
+        "https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656",
+        "https://huggingface.co/datasets/atomscott/soccertrack-v2"
+      ]
+    },
+    {
+      "index": 8,
+      "filename": "CCPV_underlying_results_public_candidate_20261119_v2.zip",
+      "size_bytes": 57016556,
+      "sha256": "4b6cc58362744c54c829568ce83974abfe403cdcf4780a0ceb2d5588e739357d",
+      "role": "Unrounded underlying statistical results, table maps and field dictionary",
+      "license_scope_id": "MIXED_RESULTS",
+      "license_scope": "Original author analysis code is MIT and eligible author statistics/explanatory material are CC BY 4.0, subject to the explicit Metrica, StatsBomb, legacy-GSR and source-notice exclusions in license_scope.json.",
+      "sources": [
+        "IDSSE",
+        "SkillCorner",
+        "SoccerTrack",
+        "Metrica",
+        "StatsBomb",
+        "LegacyGSR"
+      ],
+      "official_source_urls": [
+        "https://doi.org/10.6084/m9.figshare.28196177.v1",
+        "https://github.com/PySport/idsse-data/tree/a715a38dfbaf5f58e431727c2b78d174101a703c",
+        "https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656",
+        "https://huggingface.co/datasets/atomscott/soccertrack-v2",
+        "https://github.com/metrica-sports/sample-data",
+        "https://github.com/statsbomb/open-data",
+        "https://github.com/hudl/open-data",
+        "https://statsbomb.com/media-pack/"
+      ]
+    },
+    {
+      "index": 9,
+      "filename": "CCPV_exact_replay_npz_compatibility_candidate_20261119_v1.zip",
+      "size_bytes": 83180870,
+      "sha256": "56c093b50fef570179cb02afaef16858d462a786d93b856c85ca021588a23906",
+      "role": "1110 full non-pickle replay reference NPZ files",
+      "license_scope_id": "AUTHOR_REPLAY",
+      "license_scope": "CC BY 4.0 for author-owned model/training-replay artifacts; retain any source-data terms and attribution. Full training/audit state is distinct from the inference-only package; this licence is not an assertion that exact resumed training has been demonstrated.",
+      "sources": [
+        "IDSSE",
+        "SkillCorner"
+      ],
+      "official_source_urls": [
+        "https://doi.org/10.6084/m9.figshare.28196177.v1",
+        "https://github.com/PySport/idsse-data/tree/a715a38dfbaf5f58e431727c2b78d174101a703c",
+        "https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656"
+      ]
+    },
+    {
+      "index": 10,
+      "filename": "CCPV_table6_saved_inputs_public_candidate_20261119_v1.zip",
+      "size_bytes": 164161620,
+      "sha256": "a29d6325fe2be2140e389131314612676517bf81a0b7c667d6b7a0b7bc1da1dc",
+      "role": "132 saved Table 6 inputs and bound metadata",
+      "license_scope_id": "MIXED_SAVED_INPUTS",
+      "license_scope": "CC BY 4.0 for eligible author-generated states, scores and metadata; MIT for original code; SkillCorner/IDSSE-derived source portions retain their original notices.",
+      "sources": [
+        "SkillCorner",
+        "IDSSE"
+      ],
+      "official_source_urls": [
+        "https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656",
+        "https://doi.org/10.6084/m9.figshare.28196177.v1",
+        "https://github.com/PySport/idsse-data/tree/a715a38dfbaf5f58e431727c2b78d174101a703c"
+      ]
+    },
+    {
+      "index": 11,
+      "filename": "CCPV_legacy_controls_local_review_20261119_v2.zip",
+      "size_bytes": 6349635,
+      "sha256": "a73b6d075ed470be2129b55fefe1464a1b71b4fc11287a3e7dc9ef47e3bfdfd7",
+      "role": "Historical control and training records, unchanged",
+      "license_scope_id": "AUTHOR_CONTROLS",
+      "license_scope": "CC BY 4.0 for eligible author-generated control/history records, MIT for original code. No grant over unverified legacy source data; no raw legacy records are added.",
+      "sources": [
+        "SkillCorner",
+        "IDSSE",
+        "LegacyGSR"
+      ],
+      "official_source_urls": [
+        "https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656",
+        "https://doi.org/10.6084/m9.figshare.28196177.v1",
+        "https://github.com/PySport/idsse-data/tree/a715a38dfbaf5f58e431727c2b78d174101a703c"
+      ]
+    },
+    {
+      "index": 12,
+      "filename": "CCPV_public_runtime_bindings_candidate_20261119_v1.zip",
+      "size_bytes": 5359946,
+      "sha256": "89eecfbf26fc5144692a7661cfebeed0ae39316cff8759bced4463adbd38c60e",
+      "role": "Public runtime code, manifest bindings and compatibility derivatives",
+      "license_scope_id": "AUTHOR_RUNTIME",
+      "license_scope": "MIT for original author software; CC BY 4.0 for eligible original schema/documentation/model compatibility material; copied provider notices retain their terms. Explicit new hashes bind derived metadata and do not satisfy original-byte guards by assertion.",
+      "sources": [
+        "IDSSE",
+        "SkillCorner"
+      ],
+      "official_source_urls": [
+        "https://doi.org/10.6084/m9.figshare.28196177.v1",
+        "https://github.com/PySport/idsse-data/tree/a715a38dfbaf5f58e431727c2b78d174101a703c",
+        "https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656"
+      ]
+    },
+    {
+      "index": 13,
+      "filename": "CCPV_portable_source_release_candidate_20261119_v1.zip",
+      "size_bytes": 1342647,
+      "sha256": "cc157a95f219a9699b0e6e08dc6f638f197f995122f573b6b7714b0e9ee95339",
+      "role": "Portable source code for training and saved analyses",
+      "license_scope_id": "AUTHOR_CODE",
+      "license_scope": "MIT for original author code; CC BY 4.0 for eligible original explanatory material. Existing third-party software/data notices remain controlling for their own material.",
+      "sources": [
+        "IDSSE",
+        "SkillCorner",
+        "SoccerTrack",
+        "Metrica",
+        "StatsBomb",
+        "LegacyGSR"
+      ],
+      "official_source_urls": [
+        "https://doi.org/10.6084/m9.figshare.28196177.v1",
+        "https://github.com/PySport/idsse-data/tree/a715a38dfbaf5f58e431727c2b78d174101a703c",
+        "https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656",
+        "https://huggingface.co/datasets/atomscott/soccertrack-v2",
+        "https://github.com/metrica-sports/sample-data",
+        "https://github.com/statsbomb/open-data",
+        "https://github.com/hudl/open-data",
+        "https://statsbomb.com/media-pack/"
+      ]
+    },
+    {
+      "index": 14,
+      "filename": "CCPV_clean_inference_weights_local_candidate_20261119_v1.zip",
+      "size_bytes": 6001414,
+      "sha256": "abef2dcb7742e36c0e4f9a50b40001390b6eb22f674eee3b34e72e30bf948f40",
+      "role": "984 unique clean inference payloads and inference readers",
+      "license_scope_id": "AUTHOR_INFERENCE",
+      "license_scope": "CC BY 4.0 for author-owned clean inference weights; MIT for original inference code. Provider data licences remain separate. No StatsBomb-trained weights are included.",
+      "sources": [
+        "IDSSE",
+        "SkillCorner"
+      ],
+      "official_source_urls": [
+        "https://doi.org/10.6084/m9.figshare.28196177.v1",
+        "https://github.com/PySport/idsse-data/tree/a715a38dfbaf5f58e431727c2b78d174101a703c",
+        "https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656"
+      ]
+    },
+    {
+      "index": 15,
+      "filename": "CCPV_diagnostic_code_local_candidate_20261119_v1.zip",
+      "size_bytes": 179554,
+      "sha256": "e641fb2d75d7cc252921e4d74fc94625595eb444e72ee399791a5a8c6d1434ba",
+      "role": "Exact diagnostic source and dependency routes",
+      "license_scope_id": "AUTHOR_CODE",
+      "license_scope": "MIT for original author code; CC BY 4.0 for eligible original explanatory material. Existing third-party software/data notices remain controlling for their own material.",
+      "sources": [
+        "SkillCorner"
+      ],
+      "official_source_urls": [
+        "https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656"
+      ]
+    },
+    {
+      "index": 16,
+      "filename": "CCPV_diagnostic_clean_adapter_local_candidate_20261119_v2.zip",
+      "size_bytes": 69280,
+      "sha256": "561c60f1a3703e1d23cd156174c808b92cc21e45db4744caca34ccc0ebca6760",
+      "role": "Clean-weight diagnostic bridge and bounded equivalence evidence",
+      "license_scope_id": "AUTHOR_CODE",
+      "license_scope": "MIT for original author code; CC BY 4.0 for eligible original explanatory material. Existing third-party software/data notices remain controlling for their own material.",
+      "sources": [
+        "SkillCorner"
+      ],
+      "official_source_urls": [
+        "https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656"
+      ]
+    },
+    {
+      "index": 17,
+      "filename": "CCPV_frozen_four_match_statistics_local_candidate_20261119_v1.zip",
+      "size_bytes": 26773966,
+      "sha256": "a142a60f950b0f89a1a3214377d396f9a057029c091e65cea67e4238b7463de9",
+      "role": "Frozen four-match statistics for Table 15 and Tables S11–S12",
+      "license_scope_id": "AUTHOR_STATISTICS",
+      "license_scope": "CC BY 4.0 for eligible original frozen statistical outputs and documentation; preserve SkillCorner source attribution. This is a statistical-output package, not full raw data, response arrays or recovered truth.",
+      "sources": [
+        "SkillCorner"
+      ],
+      "official_source_urls": [
+        "https://github.com/SkillCorner/opendata/tree/4340d274572876239c154c90bc507a9b3250a656"
+      ]
+    }
+  ]
+}

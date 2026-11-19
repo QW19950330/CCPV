@@ -1,0 +1,26 @@
+{
+  "status": "PASS_SYNTHETIC_TRUTH_AND_FACTUAL_SCORING",
+  "checks": [
+    "detected_true_origin_is_valid",
+    "undetected_finite_not_truth",
+    "duplicate_id_rejected",
+    "selected_frames_only_deserialized",
+    "known_coordinate_scaling",
+    "NaN_missing_position_and_ball_unscored",
+    "missing_requested_frame_is_technical_failure",
+    "row_ADE_FDE_denominators",
+    "paired_D_CV_same_actor_time_support",
+    "prelocked_unsupported_allowed",
+    "historical_support_loss_rejected",
+    "partial_natural_path_rejected",
+    "shared_false_unsupported_rejected"
+  ],
+  "real_raw_reads": 0,
+  "real_prediction_reads": 0,
+  "model_calls": 0,
+  "code_sha256": {
+    "recover_truth.py": "e52da9fbbd9f0bebb536425f565797a97e202b08f9c4158863e5ceaca32c7df4",
+    "score_factual.py": "c10e9b9d323b65761d20b10f9f24028f981aee2486434c018f09a6ee2f69e4b6",
+    "analyze_responses.py": "a857a36efdeed7b5037b3a0414b57aaa045910409b1faa421d031e1979f3a2d9"
+  }
+}
